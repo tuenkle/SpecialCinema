@@ -14,7 +14,9 @@
         "projection": "IMAX GT 듀얼 4K 레이저",
         "sound": "12채널",
         "seats": 624,
-        "notes": "국내 최대 IMAX 스크린(멀티플렉스 기준 세계 최대급), 1.43:1 비율 지원, 국내 유일 GT 듀얼 레이저 풀스펙관"
+        "notes": "국내 최대 IMAX 스크린(멀티플렉스 기준 세계 최대급), 1.43:1 비율 지원, 국내 유일 GT 듀얼 레이저 풀스펙관",
+        "screenW": 31,
+        "screenH": 22.4
       },
       {
         "format": "ScreenX",
@@ -42,7 +44,9 @@
         "projection": "IMAX with Laser (4K)",
         "sound": "12채널",
         "seats": 268,
-        "notes": "2024년 9월 레이저 리뉴얼(IMAX Re-Born). 국내 IMAX 최초 지그재그 배치·와이드 좌석"
+        "notes": "2024년 9월 레이저 리뉴얼(IMAX Re-Born). 국내 IMAX 최초 지그재그 배치·와이드 좌석",
+        "screenW": 22,
+        "screenH": 13.3
       },
       {
         "format": "ScreenX",
@@ -70,7 +74,9 @@
         "projection": "IMAX with Laser",
         "sound": "12채널",
         "seats": null,
-        "notes": "2023년 11월 신규 오픈한 레이저 IMAX관"
+        "notes": "2023년 11월 신규 오픈한 레이저 IMAX관",
+        "screenW": 22.4,
+        "screenH": 12.3
       },
       {
         "format": "ScreenX",
@@ -98,7 +104,9 @@
         "projection": "IMAX with Laser (CoLA, 4K)",
         "sound": "12채널",
         "seats": 323,
-        "notes": "국내 유일 IMAX GT 비율(1.43:1) 규격 스크린(실 영사면적 약 24.7m × 14.3m), 국내 3번째 크기. 2025년 12월 레이저 리뉴얼"
+        "notes": "국내 유일 IMAX GT 비율(1.43:1) 규격 스크린(실 영사면적 약 24.7m × 14.3m), 국내 3번째 크기. 2025년 12월 레이저 리뉴얼",
+        "screenW": 24.7,
+        "screenH": 18.7
       },
       {
         "format": "ScreenX",
@@ -122,11 +130,14 @@
       {
         "format": "IMAX",
         "name": "IMAX LASER",
-        "screen": null,
+        "screen": "15.5m × 8.5m (추정)",
         "projection": "IMAX with Laser (XT, 4K)",
         "sound": "12채널",
         "seats": null,
-        "notes": "2022년 개관, 스크린은 IMAX관 중 소형급"
+        "notes": "2022년 개관, 스크린은 IMAX관 중 소형급",
+        "screenW": 15.5,
+        "screenH": 8.5,
+        "screenEst": true
       }
     ]
   },
@@ -259,7 +270,9 @@
         "projection": "IMAX with Laser (4K)",
         "sound": "12채널",
         "seats": null,
-        "notes": "2024년 9월 레이저 리뉴얼, 경기 북부 최초 레이저 IMAX"
+        "notes": "2024년 9월 레이저 리뉴얼, 경기 북부 최초 레이저 IMAX",
+        "screenW": 21,
+        "screenH": 11.5
       },
       {
         "format": "ScreenX",
@@ -283,11 +296,14 @@
       {
         "format": "IMAX",
         "name": "2관 IMAX",
-        "screen": null,
+        "screen": "16.09m × 8.86m (추정)",
         "projection": "IMAX with Laser",
         "sound": null,
         "seats": null,
-        "notes": "2016년 개조관으로 시작, 2026년 상반기 리뉴얼을 거쳐 레이저 IMAX로 재오픈"
+        "notes": "2016년 개조관으로 시작, 2026년 상반기 리뉴얼을 거쳐 레이저 IMAX로 재오픈",
+        "screenW": 16.09,
+        "screenH": 8.86,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -311,11 +327,14 @@
       {
         "format": "IMAX",
         "name": "1관 IMAX",
-        "screen": null,
+        "screen": "16.1m × 9m (추정)",
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 346,
-        "notes": "2014년 개조관으로 개관한 부천 최초 IMAX"
+        "notes": "2014년 개조관으로 개관한 부천 최초 IMAX",
+        "screenW": 16.1,
+        "screenH": 9,
+        "screenEst": true
       }
     ]
   },
@@ -349,11 +368,14 @@
       {
         "format": "IMAX",
         "name": "IMAX LASER",
-        "screen": null,
+        "screen": "17.2m × 9.2m (추정)",
         "projection": "IMAX with Laser (4K)",
         "sound": "12채널",
         "seats": null,
-        "notes": "2024년 12월 레이저 리뉴얼(IMAX Re-Born), 리클라이너 좌석 도입"
+        "notes": "2024년 12월 레이저 리뉴얼(IMAX Re-Born), 리클라이너 좌석 도입",
+        "screenW": 17.2,
+        "screenH": 9.2,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -381,7 +403,9 @@
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 297,
-        "notes": "경기도 최대급 스크린(왕십리와 동일 크기). ⚠️ 임대차 계약 종료로 2026년 8월 19일 폐점 예정"
+        "notes": "경기도 최대급 스크린(왕십리와 동일 크기). ⚠️ 임대차 계약 종료로 2026년 8월 19일 폐점 예정",
+        "screenW": 22,
+        "screenH": 13.3
       },
       {
         "format": "ScreenX",
@@ -405,11 +429,14 @@
       {
         "format": "IMAX",
         "name": "IMAX LASER",
-        "screen": null,
+        "screen": "20m × 12m (추정)",
         "projection": "IMAX with Laser (4K 싱글 레이저)",
         "sound": "12채널",
         "seats": 282,
-        "notes": "2020년 개관, IMAX 전용 설계 상영관, 최대 1.90:1 비율"
+        "notes": "2020년 개관, IMAX 전용 설계 상영관, 최대 1.90:1 비율",
+        "screenW": 20,
+        "screenH": 12,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -456,7 +483,9 @@
         "projection": "IMAX with Laser",
         "sound": null,
         "seats": 207,
-        "notes": "2026년 4월 IMAX관 전환 오픈, 위례신도시 유일 특별관, 국내 IMAX 중 최소급 스크린"
+        "notes": "2026년 4월 IMAX관 전환 오픈, 위례신도시 유일 특별관, 국내 IMAX 중 최소급 스크린",
+        "screenW": 14.8,
+        "screenH": 8
       }
     ]
   },
@@ -490,11 +519,14 @@
       {
         "format": "IMAX",
         "name": "6관 IMAX LASER",
-        "screen": null,
+        "screen": "14.2m × 7.8m (추정)",
         "projection": "IMAX with Laser",
         "sound": "12채널",
         "seats": 228,
-        "notes": "2023년 12월 오픈"
+        "notes": "2023년 12월 오픈",
+        "screenW": 14.2,
+        "screenH": 7.8,
+        "screenEst": true
       }
     ]
   },
@@ -509,11 +541,13 @@
       {
         "format": "DolbyCinema",
         "name": "1관 Dolby Cinema",
-        "screen": null,
+        "screen": "14.8m × 8.71m",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 275,
-        "notes": "2023년 8월 지점 개관과 함께 오픈한 국내 6호 돌비 시네마"
+        "notes": "2023년 8월 지점 개관과 함께 오픈한 국내 6호 돌비 시네마",
+        "screenW": 14.8,
+        "screenH": 8.71
       }
     ]
   },
@@ -532,7 +566,10 @@
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": null,
-        "notes": "2024년 7월 오픈. 국내 돌비 시네마 및 메가박스 전체 상영관 중 최대 스크린"
+        "notes": "2024년 7월 오픈. 국내 돌비 시네마 및 메가박스 전체 상영관 중 최대 스크린",
+        "screenW": 21.5,
+        "screenH": 11.9,
+        "screenEst": true
       }
     ]
   },
@@ -547,11 +584,14 @@
       {
         "format": "DolbyCinema",
         "name": "5관 Dolby Cinema",
-        "screen": null,
+        "screen": "20.5m × 11.7m (추정)",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 290,
-        "notes": "1.85:1 플랫 화면비 상영관"
+        "notes": "1.85:1 플랫 화면비 상영관",
+        "screenW": 20.5,
+        "screenH": 11.7,
+        "screenEst": true
       }
     ]
   },
@@ -566,11 +606,14 @@
       {
         "format": "DolbyCinema",
         "name": "Dolby Cinema",
-        "screen": null,
+        "screen": "13m × 7m (추정)",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 254,
-        "notes": "국내 2호 돌비 시네마 (2020년 개관)"
+        "notes": "국내 2호 돌비 시네마 (2020년 개관)",
+        "screenW": 13.0,
+        "screenH": 7.0,
+        "screenEst": true
       }
     ]
   },
@@ -585,11 +628,14 @@
       {
         "format": "DolbyCinema",
         "name": "Dolby Cinema",
-        "screen": null,
+        "screen": "17.7m × 10m (추정)",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 285,
-        "notes": "인천 최초 돌비 시네마(2024년 2월 오픈), 비스타비전(1.85:1) 화면비"
+        "notes": "인천 최초 돌비 시네마(2024년 2월 오픈), 비스타비전(1.85:1) 화면비",
+        "screenW": 17.7,
+        "screenH": 10.0,
+        "screenEst": true
       }
     ]
   },
@@ -608,7 +654,9 @@
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 378,
-        "notes": "국내 1호 돌비 시네마(2020년 7월 개관), 국내 돌비 시네마 중 좌석 수 최다"
+        "notes": "국내 1호 돌비 시네마(2020년 7월 개관), 국내 돌비 시네마 중 좌석 수 최다",
+        "screenW": 17.4,
+        "screenH": 7.4
       }
     ]
   },
@@ -623,11 +671,14 @@
       {
         "format": "IMAX",
         "name": "9관 IMAX",
-        "screen": null,
+        "screen": "16.8m × 9.4m (추정)",
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": null,
-        "notes": "강원특별자치도 최초이자 유일의 IMAX관, 소형 스크린"
+        "notes": "강원특별자치도 최초이자 유일의 IMAX관, 소형 스크린",
+        "screenW": 16.8,
+        "screenH": 9.4,
+        "screenEst": true
       }
     ]
   },
@@ -646,7 +697,9 @@
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 364,
-        "notes": "2010년 개조관, 충청권 최초 IMAX관"
+        "notes": "2010년 개조관, 충청권 최초 IMAX관",
+        "screenW": 16,
+        "screenH": 8.5
       }
     ]
   },
@@ -661,11 +714,14 @@
       {
         "format": "IMAX",
         "name": "IMAX LASER",
-        "screen": null,
+        "screen": "13.5m × 7.5m (추정)",
         "projection": "IMAX with Laser (XT)",
         "sound": "12채널",
         "seats": 225,
-        "notes": "2023년 12월 신규 오픈, IMAX 12채널 이머시브 사운드"
+        "notes": "2023년 12월 신규 오픈, IMAX 12채널 이머시브 사운드",
+        "screenW": 13.5,
+        "screenH": 7.5,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -689,11 +745,14 @@
       {
         "format": "DolbyCinema",
         "name": "7관 Dolby Cinema",
-        "screen": null,
+        "screen": "21m × 11.8m (추정)",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 313,
-        "notes": "비수도권 최초 돌비 시네마(2021년 8월 개관), 국내 돌비 시네마 중 두 번째로 큰 스크린"
+        "notes": "비수도권 최초 돌비 시네마(2021년 8월 개관), 국내 돌비 시네마 중 두 번째로 큰 스크린",
+        "screenW": 21.0,
+        "screenH": 11.8,
+        "screenEst": true
       }
     ]
   },
@@ -727,11 +786,14 @@
       {
         "format": "IMAX",
         "name": "4관 IMAX LASER",
-        "screen": null,
+        "screen": "13.5m × 7.5m (추정)",
         "projection": "IMAX with Laser",
         "sound": "12채널",
         "seats": 226,
-        "notes": "2023년 12월 오픈"
+        "notes": "2023년 12월 오픈",
+        "screenW": 13.5,
+        "screenH": 7.5,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -755,11 +817,14 @@
       {
         "format": "IMAX",
         "name": "7관 IMAX LASER",
-        "screen": null,
+        "screen": "15.7m × 8.2m (추정)",
         "projection": "IMAX with Laser",
         "sound": "12채널",
         "seats": null,
-        "notes": "2024년 기존 상영관을 IMAX관으로 리뉴얼"
+        "notes": "2024년 기존 상영관을 IMAX관으로 리뉴얼",
+        "screenW": 15.7,
+        "screenH": 8.2,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -806,7 +871,9 @@
         "projection": "IMAX with Laser (CoLA, 4K)",
         "sound": "12채널",
         "seats": 322,
-        "notes": "구 메가박스 대구(이마트 칠성점) 자리에 2022년 12월 재개관. 비수도권 최초 IMAX 레이저 도입(국내 5번째), 시네마스코프 비율 스크린"
+        "notes": "구 메가박스 대구(이마트 칠성점) 자리에 2022년 12월 재개관. 비수도권 최초 IMAX 레이저 도입(국내 5번째), 시네마스코프 비율 스크린",
+        "screenW": 17.5,
+        "screenH": 8.9
       },
       {
         "format": "ScreenX",
@@ -830,11 +897,13 @@
       {
         "format": "DolbyCinema",
         "name": "1관 Dolby Cinema",
-        "screen": null,
+        "screen": "15.7m × 8.5m",
         "projection": "Dolby Vision 듀얼 4K 레이저",
         "sound": "Dolby Atmos",
         "seats": 213,
-        "notes": "기존 MX관을 2022년 6월 돌비 시네마로 리뉴얼"
+        "notes": "기존 MX관을 2022년 6월 돌비 시네마로 리뉴얼",
+        "screenW": 15.7,
+        "screenH": 8.5
       }
     ]
   },
@@ -849,11 +918,14 @@
       {
         "format": "IMAX",
         "name": "IMAX",
-        "screen": null,
+        "screen": "19m × 11.2m (추정)",
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 358,
-        "notes": "부산 도심권 IMAX"
+        "notes": "부산 도심권 IMAX",
+        "screenW": 19,
+        "screenH": 11.2,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -877,11 +949,14 @@
       {
         "format": "IMAX",
         "name": "IMAX GT LASER",
-        "screen": "가로 약 27m",
+        "screen": "30.2m × 15.7m (추정)",
         "projection": "IMAX GT 듀얼 레이저",
         "sound": "12채널",
         "seats": 422,
-        "notes": "2024년 12월 기존 STARIUM관 개조 개관. 국내 2번째·비수도권 최대 IMAX 스크린, 비수도권 유일 GT 레이저"
+        "notes": "2024년 12월 기존 STARIUM관 개조 개관. 국내 2번째·비수도권 최대 IMAX 스크린, 비수도권 유일 GT 레이저",
+        "screenW": 30.2,
+        "screenH": 15.7,
+        "screenEst": true
       },
       {
         "format": "ScreenX",
@@ -909,7 +984,9 @@
         "projection": "IMAX with Laser (4K)",
         "sound": "12채널",
         "seats": 441,
-        "notes": "2024년 10월 레이저 리뉴얼(IMAX Re-Born), 비수도권 2번째 크기 스크린"
+        "notes": "2024년 10월 레이저 리뉴얼(IMAX Re-Born), 비수도권 2번째 크기 스크린",
+        "screenW": 24.4,
+        "screenH": 14.1
       },
       {
         "format": "ScreenX",
@@ -933,11 +1010,14 @@
       {
         "format": "IMAX",
         "name": "IMAX",
-        "screen": null,
+        "screen": "15.6m × 8.8m (추정)",
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": null,
-        "notes": "소형 IMAX관이지만 경남 최대 스크린. CGV 창원 폐점(2025년 3월) 이후 경남 유일 IMAX"
+        "notes": "소형 IMAX관이지만 경남 최대 스크린. CGV 창원 폐점(2025년 3월) 이후 경남 유일 IMAX",
+        "screenW": 15.6,
+        "screenH": 8.8,
+        "screenEst": true
       }
     ]
   },
@@ -956,7 +1036,9 @@
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 373,
-        "notes": "2014년 개관 당시 국내 최대 크기 IMAX 스크린, 호남권 최대급"
+        "notes": "2014년 개관 당시 국내 최대 크기 IMAX 스크린, 호남권 최대급",
+        "screenW": 24.4,
+        "screenH": 14
       }
     ]
   },
@@ -971,11 +1053,14 @@
       {
         "format": "IMAX",
         "name": "IMAX LASER",
-        "screen": null,
+        "screen": "18.5m × 9.5m (추정)",
         "projection": "IMAX with Laser",
         "sound": "12채널",
         "seats": null,
-        "notes": "2024년 11월 기존 상영관 전환 오픈. 광주터미널 폐점(2025년 3월) 이후 전남권 유일 IMAX"
+        "notes": "2024년 11월 기존 상영관 전환 오픈. 광주터미널 폐점(2025년 3월) 이후 전남권 유일 IMAX",
+        "screenW": 18.5,
+        "screenH": 9.5,
+        "screenEst": true
       }
     ]
   },

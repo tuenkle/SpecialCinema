@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>스크린 크기 비교 — 전국 IMAX · Dolby Cinema</title>
+  <meta name="description" content="대한민국 IMAX·Dolby Cinema 상영관 스크린 크기를 실제 비율로 겹쳐 비교합니다." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">🎬</span>
+      <h1>스크린 크기 비교</h1>
+      <span class="brand-sub">실제 비율로 겹쳐 보기</span>
+      <a class="engine-switch" href="osm.html">지도로 ↗</a>
+    </div>
+    <nav class="filters" id="tabs" aria-label="특별관 종류 선택">
+      <button class="filter-btn active" data-tab="IMAX">
+        <span class="dot dot-imax"></span>IMAX
+      </button>
+      <button class="filter-btn" data-tab="DolbyCinema">
+        <span class="dot dot-dolby"></span>Dolby Cinema
+      </button>
+    </nav>
+  </header>
+
+  <main class="cmp-wrap">
+    <section class="cmp-chart-card">
+      <div id="cmp-chart"></div>
+      <div class="cmp-tooltip" id="cmp-tooltip" hidden></div>
+    </section>
+
+    <section class="cmp-list-card">
+      <h2 id="cmp-list-title"></h2>
+      <ol class="cmp-list" id="cmp-list"></ol>
+      <div class="cmp-unknown" id="cmp-unknown"></div>
+      <p class="cmp-foot">
+        * 표시는 공식 발표가 아닌 커뮤니티 실측·추정치입니다. 스크린 수치 출처:
+        각 멀티플렉스 공지, BOGO(@bogo.review) IMAX 인포그래픽(2024-12),
+        chungjuhyun 님 돌비 시네마 비교(2025-08). 리뉴얼로 실제와 다를 수 있습니다.
+      </p>
+    </section>
+  </main>
+
+  <script src="js/compare.js"></script>
+</body>
+</html>

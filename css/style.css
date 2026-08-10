@@ -240,6 +240,69 @@ body { display: flex; flex-direction: column; }
 .marker-anchor { background: none; border: none; }
 .leaflet-container { background: #0c0e12; font: inherit; }
 
+/* ---------- Compare page ---------- */
+.cmp-wrap {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 100%;
+}
+.cmp-chart-card, .cmp-list-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  position: relative;
+}
+#cmp-chart svg { width: 100%; height: auto; display: block; }
+.cmp-rect { cursor: pointer; transition: fill-opacity 0.12s ease; }
+.cmp-label { pointer-events: none; }
+
+.cmp-tooltip {
+  position: absolute;
+  background: #0f1115;
+  border: 1px solid #3d465c;
+  border-radius: 8px;
+  padding: 8px 11px;
+  font-size: 12.5px;
+  line-height: 1.5;
+  pointer-events: none;
+  z-index: 5;
+  max-width: 160px;
+}
+.cmp-tooltip span { color: var(--text-dim); font-size: 11.5px; }
+
+.cmp-list-card h2 { font-size: 15px; margin-bottom: 12px; }
+.cmp-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 4px 24px;
+}
+.cmp-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 5px 8px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: default;
+}
+.cmp-row.hover { background: var(--surface-2); }
+.cmp-rank { color: var(--text-dim); font-size: 11px; width: 16px; text-align: right; }
+.cmp-dot { width: 11px; height: 11px; border-radius: 3px; flex: none; }
+.cmp-name { font-weight: 600; }
+.cmp-name sup { color: var(--text-dim); }
+.cmp-dim { color: var(--text-dim); margin-left: auto; font-variant-numeric: tabular-nums; }
+.cmp-area { color: var(--text-dim); font-size: 11.5px; width: 52px; text-align: right; font-variant-numeric: tabular-nums; }
+.cmp-unknown { margin-top: 12px; font-size: 12.5px; color: var(--text-dim); }
+.cmp-foot { margin-top: 14px; font-size: 11.5px; color: var(--text-dim); line-height: 1.6; }
+
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
   .topbar { padding: 10px 12px; }
