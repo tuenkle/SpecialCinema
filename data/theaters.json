@@ -1,1 +1,973 @@
-[]
+[
+  {
+    "id": "cgv-yongsan",
+    "chain": "CGV",
+    "name": "CGV 용산아이파크몰",
+    "address": "서울특별시 용산구 한강대로23길 55 (아이파크몰)",
+    "lat": 37.5299,
+    "lng": 126.9648,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX GT LASER",
+        "screen": "31m × 22.4m",
+        "projection": "IMAX GT 듀얼 4K 레이저",
+        "sound": "12채널",
+        "seats": 624,
+        "notes": "국내 최대 IMAX 스크린(멀티플렉스 기준 세계 최대급), 1.43:1 비율 지원, 국내 유일 GT 듀얼 레이저 풀스펙관"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "4면 확장 상영 (정면+좌우+천장)",
+        "sound": "Dolby Atmos",
+        "seats": 200,
+        "notes": "세계 최초 4면 SCREENX관(2025년 1월). 전 좌석 리클라이너, 프라이빗 박스 8석. ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-wangsimni",
+    "chain": "CGV",
+    "name": "CGV 왕십리",
+    "address": "서울특별시 성동구 왕십리광장로 17",
+    "lat": 37.5613,
+    "lng": 127.0378,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "22m × 13.3m",
+        "projection": "IMAX with Laser (4K)",
+        "sound": "12채널",
+        "seats": 268,
+        "notes": "2024년 9월 레이저 리뉴얼(IMAX Re-Born). 국내 IMAX 최초 지그재그 배치·와이드 좌석"
+      },
+      {
+        "format": "ScreenX",
+        "name": "8관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "2025년 11월 리클라이너·Dolby Atmos 리뉴얼. ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-yeongdeungpo",
+    "chain": "CGV",
+    "name": "CGV 영등포",
+    "address": "서울특별시 영등포구 영중로 15 (타임스퀘어)",
+    "lat": 37.5172,
+    "lng": 126.9033,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "22.4m × 12.3m",
+        "projection": "IMAX with Laser",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2023년 11월 신규 오픈한 레이저 IMAX관"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX PLF",
+        "screen": null,
+        "projection": "270° 3면 확장 상영, 4K 레이저",
+        "sound": null,
+        "seats": null,
+        "notes": "세계 최대 규모 SCREENX(PLF)관. 2025년 11월 리클라이너·브라이트 윙스크린·4K 레이저 리뉴얼"
+      }
+    ]
+  },
+  {
+    "id": "cgv-cheonho",
+    "chain": "CGV",
+    "name": "CGV 천호",
+    "address": "서울특별시 강동구 천호대로 1005",
+    "lat": 37.5385,
+    "lng": 127.1238,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "24.7m × 18.7m",
+        "projection": "IMAX with Laser (CoLA, 4K)",
+        "sound": "12채널",
+        "seats": 323,
+        "notes": "국내 유일 IMAX GT 비율(1.43:1) 규격 스크린(실 영사면적 약 24.7m × 14.3m), 국내 3번째 크기. 2025년 12월 레이저 리뉴얼"
+      },
+      {
+        "format": "ScreenX",
+        "name": "2관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 162,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-apgujeong",
+    "chain": "CGV",
+    "name": "CGV 압구정",
+    "address": "서울특별시 강남구 압구정로30길 45",
+    "lat": 37.527,
+    "lng": 127.0287,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser (XT, 4K)",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2022년 개관, 스크린은 IMAX관 중 소형급"
+      }
+    ]
+  },
+  {
+    "id": "cgv-hongdae",
+    "chain": "CGV",
+    "name": "CGV 홍대",
+    "address": "서울특별시 마포구 양화로 153",
+    "lat": 37.557,
+    "lng": 126.9237,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2025년 12월 SCREENX관 리뉴얼 오픈(용산·영등포·왕십리에 이은 거점 업그레이드)"
+      }
+    ]
+  },
+  {
+    "id": "cgv-guro",
+    "chain": "CGV",
+    "name": "CGV 구로",
+    "address": "서울특별시 구로구 구로중앙로 152 (NC백화점 신구로점)",
+    "lat": 37.5027,
+    "lng": 126.882,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "1관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 171,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-deungchon",
+    "chain": "CGV",
+    "name": "CGV 등촌",
+    "address": "서울특별시 강서구 공항대로45길 63",
+    "lat": 37.5506,
+    "lng": 126.8654,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "6관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-sangbong",
+    "chain": "CGV",
+    "name": "CGV 상봉",
+    "address": "서울특별시 중랑구 상봉로 131",
+    "lat": 37.5967,
+    "lng": 127.0857,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "5관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 174,
+        "notes": "ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-sinchon-artreon",
+    "chain": "CGV",
+    "name": "CGV 신촌아트레온",
+    "address": "서울특별시 서대문구 신촌로 129",
+    "lat": 37.5559,
+    "lng": 126.937,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "4관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-godeok-gangil",
+    "chain": "CGV",
+    "name": "CGV 고덕강일",
+    "address": "서울특별시 강동구 고덕비즈밸리로 51",
+    "lat": 37.557,
+    "lng": 127.174,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "1관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영, 브라이트 윙스크린",
+        "sound": null,
+        "seats": 127,
+        "notes": "2025년 4월 개관. 국내 세 번째 리클라이너 SCREENX관"
+      }
+    ]
+  },
+  {
+    "id": "cgv-ilsan",
+    "chain": "CGV",
+    "name": "CGV 일산",
+    "address": "경기도 고양시 일산동구 정발산로 24 (웨스턴돔)",
+    "lat": 37.6583,
+    "lng": 126.7705,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "21m × 11.5m",
+        "projection": "IMAX with Laser (4K)",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2024년 9월 레이저 리뉴얼, 경기 북부 최초 레이저 IMAX"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "국내 최초 리클라이너 SCREENX관(2024년 리뉴얼). ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-uijeongbu",
+    "chain": "CGV",
+    "name": "CGV 의정부",
+    "address": "경기도 의정부시 평화로 525 (의정부역 신세계백화점)",
+    "lat": 37.7382,
+    "lng": 127.046,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "2관 IMAX",
+        "screen": null,
+        "projection": "IMAX with Laser",
+        "sound": null,
+        "seats": null,
+        "notes": "2016년 개조관으로 시작, 2026년 상반기 리뉴얼을 거쳐 레이저 IMAX로 재오픈"
+      }
+    ]
+  },
+  {
+    "id": "cgv-sopoong",
+    "chain": "CGV",
+    "name": "CGV 소풍",
+    "address": "경기도 부천시 원미구 송내대로 239 (부천터미널 소풍)",
+    "lat": 37.5041,
+    "lng": 126.7525,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "1관 IMAX",
+        "screen": null,
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 346,
+        "notes": "2014년 개조관으로 개관한 부천 최초 IMAX"
+      }
+    ]
+  },
+  {
+    "id": "cgv-bucheon",
+    "chain": "CGV",
+    "name": "CGV 부천",
+    "address": "경기도 부천시 길주로 180 (현대백화점 중동점)",
+    "lat": 37.5037,
+    "lng": 126.7629,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2026년 상반기 리뉴얼로 리클라이너 전환"
+      }
+    ]
+  },
+  {
+    "id": "cgv-incheon",
+    "chain": "CGV",
+    "name": "CGV 인천",
+    "address": "인천광역시 남동구 예술로 198 (구월동)",
+    "lat": 37.4485,
+    "lng": 126.7024,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser (4K)",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2024년 12월 레이저 리뉴얼(IMAX Re-Born), 리클라이너 좌석 도입"
+      },
+      {
+        "format": "ScreenX",
+        "name": "2관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 103,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-pangyo",
+    "chain": "CGV",
+    "name": "CGV 판교",
+    "address": "경기도 성남시 분당구 판교역로146번길 20 (알파돔타워)",
+    "lat": 37.3947,
+    "lng": 127.111,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX",
+        "screen": "22m × 13.3m",
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 297,
+        "notes": "경기도 최대급 스크린(왕십리와 동일 크기). ⚠️ 임대차 계약 종료로 2026년 8월 19일 폐점 예정"
+      },
+      {
+        "format": "ScreenX",
+        "name": "7층 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 214,
+        "notes": "⚠️ 2026년 8월 19일 영업 종료 예정 (9월 신규 야탑점으로 SCREENX 이전 운영 예정)"
+      }
+    ]
+  },
+  {
+    "id": "cgv-gwanggyo",
+    "chain": "CGV",
+    "name": "CGV 광교",
+    "address": "경기도 수원시 영통구 광교중앙로 124 (갤러리아 광교)",
+    "lat": 37.2865,
+    "lng": 127.0565,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser (4K 싱글 레이저)",
+        "sound": "12채널",
+        "seats": 282,
+        "notes": "2020년 개관, IMAX 전용 설계 상영관, 최대 1.90:1 비율"
+      },
+      {
+        "format": "ScreenX",
+        "name": "ULTRA 4DX (4DX+SCREENX)",
+        "screen": null,
+        "projection": "270° 3면 확장 상영 + 모션 시트",
+        "sound": null,
+        "seats": null,
+        "notes": "ULTRA 4DX 결합관으로 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-dongsuwon",
+    "chain": "CGV",
+    "name": "CGV 동수원",
+    "address": "경기도 수원시 팔달구 중부대로 223",
+    "lat": 37.267,
+    "lng": 127.034,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "4관 ULTRA 4DX (4DX+SCREENX)",
+        "screen": null,
+        "projection": "270° 3면 확장 상영 + 모션 시트",
+        "sound": null,
+        "seats": 108,
+        "notes": "ULTRA 4DX 결합관으로 운영 (기존 단독 SCREENX관은 폐지)"
+      }
+    ]
+  },
+  {
+    "id": "cgv-wirye",
+    "chain": "CGV",
+    "name": "CGV 스타필드시티위례",
+    "address": "경기도 하남시 위례대로 200 (스타필드시티 위례)",
+    "lat": 37.4776,
+    "lng": 127.1449,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "5관 IMAX LASER",
+        "screen": "14.8m × 8m",
+        "projection": "IMAX with Laser",
+        "sound": null,
+        "seats": 207,
+        "notes": "2026년 4월 IMAX관 전환 오픈, 위례신도시 유일 특별관, 국내 IMAX 중 최소급 스크린"
+      }
+    ]
+  },
+  {
+    "id": "cgv-dongtan",
+    "chain": "CGV",
+    "name": "CGV 동탄",
+    "address": "경기도 화성시 동탄역로 160 (롯데백화점 동탄점)",
+    "lat": 37.2007,
+    "lng": 127.0975,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser (4K)",
+        "sound": "12채널",
+        "seats": 246,
+        "notes": "2022년 개관, 화성시 최초 IMAX, 최대 1.90:1 비율"
+      }
+    ]
+  },
+  {
+    "id": "cgv-pyeongtaek",
+    "chain": "CGV",
+    "name": "CGV 평택",
+    "address": "경기도 평택시 평택로 51 (평택역 AK플라자)",
+    "lat": 36.9905,
+    "lng": 127.085,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "6관 IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser",
+        "sound": "12채널",
+        "seats": 228,
+        "notes": "2023년 12월 오픈"
+      }
+    ]
+  },
+  {
+    "id": "mb-suwon-ak",
+    "chain": "메가박스",
+    "name": "메가박스 수원AK플라자",
+    "address": "경기도 수원시 팔달구 덕영대로 924 (AK플라자 수원)",
+    "lat": 37.2659,
+    "lng": 127.0,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "1관 Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 275,
+        "notes": "2023년 8월 지점 개관과 함께 오픈한 국내 6호 돌비 시네마"
+      }
+    ]
+  },
+  {
+    "id": "mb-hanam",
+    "chain": "메가박스",
+    "name": "메가박스 하남스타필드",
+    "address": "경기도 하남시 미사대로 750 (스타필드 하남)",
+    "lat": 37.5453,
+    "lng": 127.2235,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "Dolby Cinema",
+        "screen": "가로 20m 이상",
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "2024년 7월 오픈. 국내 돌비 시네마 및 메가박스 전체 상영관 중 최대 스크린"
+      }
+    ]
+  },
+  {
+    "id": "mb-namyangju",
+    "chain": "메가박스",
+    "name": "메가박스 남양주현대아울렛 스페이스원",
+    "address": "경기도 남양주시 다산순환로 50 (현대프리미엄아울렛 스페이스원)",
+    "lat": 37.618,
+    "lng": 127.153,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "5관 Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 290,
+        "notes": "1.85:1 플랫 화면비 상영관"
+      }
+    ]
+  },
+  {
+    "id": "mb-anseong",
+    "chain": "메가박스",
+    "name": "메가박스 안성스타필드",
+    "address": "경기도 안성시 공도읍 서동대로 3930-39 (스타필드 안성)",
+    "lat": 37.0009,
+    "lng": 127.1665,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 254,
+        "notes": "국내 2호 돌비 시네마 (2020년 개관)"
+      }
+    ]
+  },
+  {
+    "id": "mb-songdo",
+    "chain": "메가박스",
+    "name": "메가박스 송도",
+    "address": "인천광역시 연수구 송도과학로16번길 33-4 (트리플스트리트 D동)",
+    "lat": 37.3812,
+    "lng": 126.6575,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 285,
+        "notes": "인천 최초 돌비 시네마(2024년 2월 오픈), 비스타비전(1.85:1) 화면비"
+      }
+    ]
+  },
+  {
+    "id": "mb-coex",
+    "chain": "메가박스",
+    "name": "메가박스 코엑스",
+    "address": "서울특별시 강남구 봉은사로 524 (스타필드 코엑스몰)",
+    "lat": 37.5124,
+    "lng": 127.0588,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "1관 Dolby Cinema",
+        "screen": "17.4m × 7.4m",
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 378,
+        "notes": "국내 1호 돌비 시네마(2020년 7월 개관), 국내 돌비 시네마 중 좌석 수 최다"
+      }
+    ]
+  },
+  {
+    "id": "cgv-chuncheon",
+    "chain": "CGV",
+    "name": "CGV 춘천",
+    "address": "강원특별자치도 춘천시 지석로 80 (투탑시티)",
+    "lat": 37.8577,
+    "lng": 127.7345,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "9관 IMAX",
+        "screen": null,
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": null,
+        "notes": "강원특별자치도 최초이자 유일의 IMAX관, 소형 스크린"
+      }
+    ]
+  },
+  {
+    "id": "cgv-daejeon",
+    "chain": "CGV",
+    "name": "CGV 대전",
+    "address": "대전광역시 중구 계백로 1700 (백화점 세이)",
+    "lat": 36.3226,
+    "lng": 127.4076,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX",
+        "screen": "16m × 8.5m",
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 364,
+        "notes": "2010년 개조관, 충청권 최초 IMAX관"
+      }
+    ]
+  },
+  {
+    "id": "cgv-daejeon-terminal",
+    "chain": "CGV",
+    "name": "CGV 대전터미널",
+    "address": "대전광역시 동구 동서대로 1689 (대전복합터미널 동관)",
+    "lat": 36.3497,
+    "lng": 127.4372,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser (XT)",
+        "sound": "12채널",
+        "seats": 225,
+        "notes": "2023년 12월 신규 오픈, IMAX 12채널 이머시브 사운드"
+      },
+      {
+        "format": "ScreenX",
+        "name": "4관 SCREENX PLF",
+        "screen": null,
+        "projection": "270° 3면 확장 상영 (프리미엄 대형 포맷)",
+        "sound": null,
+        "seats": 230,
+        "notes": "2023년 12월 SCREENX PLF 도입"
+      }
+    ]
+  },
+  {
+    "id": "mb-daejeon-shinsegae",
+    "chain": "메가박스",
+    "name": "메가박스 대전신세계 아트앤사이언스",
+    "address": "대전광역시 유성구 엑스포로 1 (대전신세계 Art & Science)",
+    "lat": 36.3746,
+    "lng": 127.3812,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "7관 Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 313,
+        "notes": "비수도권 최초 돌비 시네마(2021년 8월 개관), 국내 돌비 시네마 중 두 번째로 큰 스크린"
+      }
+    ]
+  },
+  {
+    "id": "cgv-sejong",
+    "chain": "CGV",
+    "name": "CGV 세종",
+    "address": "세종특별자치시 도움1로 108 (몰리브)",
+    "lat": 36.5033,
+    "lng": 127.2637,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-cheonan-pentaport",
+    "chain": "CGV",
+    "name": "CGV 천안펜타포트",
+    "address": "충청남도 천안시 서북구 공원로 196 (펜타포트몰)",
+    "lat": 36.8186,
+    "lng": 127.1082,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "4관 IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser",
+        "sound": "12채널",
+        "seats": 226,
+        "notes": "2023년 12월 오픈"
+      },
+      {
+        "format": "ScreenX",
+        "name": "8관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-cheonan-terminal",
+    "chain": "CGV",
+    "name": "CGV 천안터미널",
+    "address": "충청남도 천안시 동남구 만남로 43 (신세계백화점 천안아산점)",
+    "lat": 36.8198,
+    "lng": 127.156,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "7관 IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2024년 기존 상영관을 IMAX관으로 리뉴얼"
+      },
+      {
+        "format": "ScreenX",
+        "name": "ULTRA 4DX (4DX+SCREENX)",
+        "screen": null,
+        "projection": "270° 3면 확장 상영 + 모션 시트",
+        "sound": null,
+        "seats": null,
+        "notes": "ULTRA 4DX 결합관으로 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-cheongju-seomun",
+    "chain": "CGV",
+    "name": "CGV 청주(서문)",
+    "address": "충청북도 청주시 상당구 상당로81번길 63",
+    "lat": 36.6352,
+    "lng": 127.489,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "7관 IMAX",
+        "screen": null,
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 258,
+        "notes": "2022년 7월 개관, 충청북도 최초이자 유일의 IMAX관"
+      }
+    ]
+  },
+  {
+    "id": "cgv-daegu",
+    "chain": "CGV",
+    "name": "CGV 대구",
+    "address": "대구광역시 중구 국채보상로 586 (한일극장)",
+    "lat": 35.8698,
+    "lng": 128.5958,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "17.5m × 8.9m",
+        "projection": "IMAX with Laser (CoLA, 4K)",
+        "sound": "12채널",
+        "seats": 322,
+        "notes": "비수도권 최초 IMAX 레이저 도입(국내 5번째), 시네마스코프 비율 스크린"
+      },
+      {
+        "format": "ScreenX",
+        "name": "4관 ULTRA 4DX (4DX+SCREENX)",
+        "screen": null,
+        "projection": "270° 3면 확장 상영 + 모션 시트",
+        "sound": null,
+        "seats": 120,
+        "notes": "대구 시내 유일의 SCREENX 상영 가능관"
+      }
+    ]
+  },
+  {
+    "id": "mb-daegu-shinsegae",
+    "chain": "메가박스",
+    "name": "메가박스 대구신세계",
+    "address": "대구광역시 동구 동부로 149 (신세계백화점 대구점)",
+    "lat": 35.877,
+    "lng": 128.6284,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "1관 Dolby Cinema",
+        "screen": null,
+        "projection": "Dolby Vision 듀얼 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 213,
+        "notes": "기존 MX관을 2022년 6월 돌비 시네마로 리뉴얼"
+      }
+    ]
+  },
+  {
+    "id": "cgv-seomyeon",
+    "chain": "CGV",
+    "name": "CGV 서면",
+    "address": "부산광역시 부산진구 동천로 4 (지오플레이스)",
+    "lat": 35.1555,
+    "lng": 129.0633,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX",
+        "screen": null,
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 358,
+        "notes": "부산 도심권 IMAX"
+      },
+      {
+        "format": "ScreenX",
+        "name": "12관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2022년 리뉴얼로 측면 전용 실버스크린 설치"
+      }
+    ]
+  },
+  {
+    "id": "cgv-centum",
+    "chain": "CGV",
+    "name": "CGV 센텀시티",
+    "address": "부산광역시 해운대구 센텀남대로 35 (신세계 센텀시티)",
+    "lat": 35.1691,
+    "lng": 129.1308,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX GT LASER",
+        "screen": "가로 약 27m",
+        "projection": "IMAX GT 듀얼 레이저",
+        "sound": "12채널",
+        "seats": 422,
+        "notes": "2024년 12월 기존 STARIUM관 개조 개관. 국내 2번째·비수도권 최대 IMAX 스크린, 비수도권 유일 GT 레이저"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "부산 유일의 ULTRA 4DX(4DX+SCREENX, 128석)관도 별도 운영"
+      }
+    ]
+  },
+  {
+    "id": "cgv-ulsan-samsan",
+    "chain": "CGV",
+    "name": "CGV 울산삼산",
+    "address": "울산광역시 남구 화합로 185 (업스퀘어)",
+    "lat": 35.5385,
+    "lng": 129.336,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": "24.4m × 14.1m",
+        "projection": "IMAX with Laser (4K)",
+        "sound": "12채널",
+        "seats": 441,
+        "notes": "2024년 10월 레이저 리뉴얼(IMAX Re-Born), 비수도권 2번째 크기 스크린"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": null
+      }
+    ]
+  },
+  {
+    "id": "cgv-changwon-thecity",
+    "chain": "CGV",
+    "name": "CGV 창원더시티",
+    "address": "경상남도 창원시 성산구 원이대로 320 (더시티세븐)",
+    "lat": 35.232,
+    "lng": 128.664,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX",
+        "screen": null,
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": null,
+        "notes": "소형 IMAX관이지만 경남 최대 스크린. CGV 창원 폐점(2025년 3월) 이후 경남 유일 IMAX"
+      }
+    ]
+  },
+  {
+    "id": "cgv-jeonju-hyoja",
+    "chain": "CGV",
+    "name": "CGV 전주효자",
+    "address": "전북특별자치도 전주시 완산구 용머리로 45",
+    "lat": 35.81,
+    "lng": 127.11,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX",
+        "screen": "24.4m × 14m",
+        "projection": "IMAX 제논 2K 디지털",
+        "sound": null,
+        "seats": 373,
+        "notes": "2014년 개관 당시 국내 최대 크기 IMAX 스크린, 호남권 최대급"
+      }
+    ]
+  },
+  {
+    "id": "cgv-suncheon-sindae",
+    "chain": "CGV",
+    "name": "CGV 순천신대",
+    "address": "전라남도 순천시 해룡면 해광로 199",
+    "lat": 34.92,
+    "lng": 127.548,
+    "auditoriums": [
+      {
+        "format": "IMAX",
+        "name": "IMAX LASER",
+        "screen": null,
+        "projection": "IMAX with Laser",
+        "sound": "12채널",
+        "seats": null,
+        "notes": "2024년 11월 기존 상영관 전환 오픈. 광주터미널 폐점(2025년 3월) 이후 전남권 유일 IMAX"
+      }
+    ]
+  }
+]
