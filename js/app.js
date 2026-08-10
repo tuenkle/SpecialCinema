@@ -98,9 +98,6 @@
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     }).addTo(map);
 
-    const chip = document.getElementById("map-mode");
-    if (chip) chip.hidden = false;
-
     return {
       name: "leaflet",
       addMarker(t, html, onClick) {
@@ -122,12 +119,10 @@
     };
   }
 
+  // 페이지가 지정한 엔진만 사용: index.html → "naver", osm.html → "osm"
   async function createProvider() {
-    try {
-      return await createNaverProvider();
-    } catch (e) {
-      return createLeafletProvider();
-    }
+    if (window.MAP_ENGINE === "osm") return createLeafletProvider();
+    return createNaverProvider();
   }
 
   async function loadTheaters() {
@@ -292,7 +287,8 @@
     try {
       state.provider = await createProvider();
     } catch (e) {
-      console.error(e);
+      const notice = document.getElementById("map-notice");
+      if (notice) notice.hidden = false;
       return;
     }
 

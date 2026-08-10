@@ -11,12 +11,15 @@
   - 스크린 크기, 영사 방식, 사운드, 좌석 수, 특이사항
 - 한 지점에 여러 특별관이 있으면 모두 표시 (예: CGV 용산아이파크몰 = IMAX + ScreenX)
 
-## 지도 엔진
+## 두 가지 버전 (URL로 구분)
 
-- **네이버 지도** — `js/config.js`에 클라이언트 ID가 있으면 사용 (한국 지도 품질 최상)
-- **Leaflet + OpenStreetMap** — 키가 없거나 네이버 지도 로드에 실패하면 **자동 폴백**.
-  API 키 없이 바로 동작하므로 GitHub Pages에 올리기만 해도 지도가 뜹니다.
-  (Leaflet은 `vendor/leaflet/`에 번들되어 있어 CDN 의존성이 없습니다.)
+| 페이지 | 지도 엔진 | API 키 |
+|---|---|---|
+| `index.html` | 네이버 지도 (한국 지도 품질 최상) | 필요 (`js/config.js`) |
+| `osm.html` | Leaflet + OpenStreetMap | 불필요 — 바로 동작 |
+
+두 페이지는 상단의 전환 링크로 서로 오갈 수 있고, 데이터·필터·스펙 패널 로직(`js/app.js`)을 공유합니다.
+Leaflet은 `vendor/leaflet/`에 번들되어 있어 CDN 의존성이 없습니다.
 
 ## 실행 방법
 
@@ -24,14 +27,13 @@
 
    ```bash
    python3 -m http.server 8000
-   # http://localhost:8000 접속
+   # 네이버 버전: http://localhost:8000
+   # OSM 버전:   http://localhost:8000/osm.html
    ```
-
-   키가 없어도 OpenStreetMap으로 바로 동작합니다.
 
 2. **배포** — 순수 정적 사이트라 GitHub Pages, Vercel, Netlify 등에 그대로 올리면 됩니다.
 
-3. **(선택) 네이버 지도 사용**
+3. **(네이버 버전용) 네이버 지도 키 설정**
    - [NAVER CLOUD PLATFORM → Maps](https://www.ncloud.com/product/applicationService/maps)에서 Application을 등록하고
      **Maps > Web Dynamic Map** 서비스의 클라이언트 ID(ncpKeyId)를 발급받습니다.
    - Application 설정의 *Web 서비스 URL*에 배포 도메인을 추가합니다

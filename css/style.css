@@ -191,31 +191,51 @@ body { display: flex; flex-direction: column; }
   line-height: 1.5;
 }
 
-/* ---------- Map mode chip (OSM fallback) ---------- */
-.map-mode {
+/* ---------- Map key notice (naver page only) ---------- */
+.map-notice {
   position: absolute;
-  left: 50%;
-  bottom: 14px;
-  transform: translateX(-50%);
-  max-width: calc(100% - 28px);
-  padding: 7px 14px;
-  border-radius: 999px;
-  background: rgba(15, 17, 21, 0.9);
-  border: 1px solid var(--border);
-  color: var(--text-dim);
-  font-size: 12px;
-  line-height: 1.5;
-  z-index: 10;
-  text-align: center;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 12, 16, 0.85);
+  z-index: 30;
 }
-.map-mode code {
+.map-notice-card {
+  max-width: 440px;
+  margin: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 26px 28px;
+}
+.map-notice-card h2 { font-size: 17px; margin-bottom: 10px; }
+.map-notice-card p { font-size: 14px; color: var(--text-dim); line-height: 1.6; margin-bottom: 8px; }
+.map-notice-card code {
   background: var(--surface-2);
-  padding: 1px 5px;
-  border-radius: 4px;
+  padding: 2px 6px;
+  border-radius: 5px;
+  font-size: 12.5px;
   color: #ffd479;
 }
+.map-notice-card a { color: #8ab4f8; }
+.map-notice-card .small { font-size: 12.5px; }
 
-/* ---------- Leaflet fallback tweaks ---------- */
+/* ---------- Engine switch link ---------- */
+.engine-switch {
+  align-self: center;
+  margin-left: 6px;
+  font-size: 12px;
+  color: #8ab4f8;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: 4px 10px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.engine-switch:hover { border-color: #4a5570; }
+
+/* ---------- Leaflet (OSM page) tweaks ---------- */
 .marker-anchor { background: none; border: none; }
 .leaflet-container { background: #0c0e12; font: inherit; }
 
