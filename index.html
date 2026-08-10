@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>특별관 지도 — 전국 IMAX · ScreenX · Dolby Cinema</title>
   <meta name="description" content="대한민국 전역의 IMAX, ScreenX, Dolby Cinema 특별관 위치와 상영관 스펙을 지도에서 한눈에 확인하세요." />
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -35,20 +36,13 @@
       <div class="panel-body" id="panel-body"></div>
     </aside>
 
-    <div class="map-notice" id="map-notice" hidden>
-      <div class="map-notice-card">
-        <h2>네이버 지도 키가 필요합니다</h2>
-        <p>
-          <code>js/config.js</code> 파일의 <code>NAVER_MAP_CLIENT_ID</code>에
-          네이버 클라우드 플랫폼에서 발급받은 Maps API 클라이언트 ID(ncpKeyId)를 입력해 주세요.
-        </p>
-        <p class="small">
-          발급: <a href="https://www.ncloud.com/product/applicationService/maps" target="_blank" rel="noopener">NAVER CLOUD PLATFORM → Maps</a>
-        </p>
-      </div>
+    <div class="map-mode" id="map-mode" hidden>
+      기본 지도(OpenStreetMap)로 표시 중 — 네이버 지도를 쓰려면
+      <code>js/config.js</code>에 클라이언트 ID를 입력하세요
     </div>
   </main>
 
+  <script src="vendor/leaflet/leaflet.js"></script>
   <script src="js/config.js"></script>
   <script src="js/app.js"></script>
 </body>

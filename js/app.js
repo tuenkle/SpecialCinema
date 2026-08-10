@@ -16,23 +16,23 @@
     메가박스: "https://www.megabox.co.kr/",
     롯데시네마: "https://www.lottecinema.co.kr/",
   };
+  const MAP_CENTER = { lat: 36.4, lng: 127.8 };
+  const MAP_ZOOM = 8;
 
   const state = {
-    map: null,
+    provider: null,
     theaters: [],
-    markers: new Map(), // theater.id -> { marker, el }
+    markers: new Map(), // theater.id -> marker handle
     activeFormats: new Set(["IMAX", "ScreenX", "DolbyCinema"]),
     selectedId: null,
   };
 
-  // ---------- Naver Maps loader ----------
-  function loadNaverMaps() {
+  // ---------- Map providers ----------
+  // Each provider implements: addMarker(theater, html, onClick) -> handle,
+  // setVisible(handle, visible), panTo(lat, lng)
+
+  function loadNaverScript(clientId) {
     return new Promise((resolve, reject) => {
-      const clientId = (window.NAVER_MAP_CLIENT_ID || "").trim();
-      if (!clientId) {
-        reject(new Error("NO_CLIENT_ID"));
-        return;
-      }
       const script = document.createElement("script");
       script.src =
         "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=" +
@@ -44,6 +44,90 @@
       script.onerror = () => reject(new Error("LOAD_FAILED"));
       document.head.appendChild(script);
     });
+  }
+
+  async function createNaverProvider() {
+    const clientId = (window.NAVER_MAP_CLIENT_ID || "").trim();
+    if (!clientId) throw new Error("NO_CLIENT_ID");
+    await loadNaverScript(clientId);
+
+    const map = new naver.maps.Map("map", {
+      center: new naver.maps.LatLng(MAP_CENTER.lat, MAP_CENTER.lng),
+      zoom: MAP_ZOOM,
+      minZoom: 6,
+      mapDataControl: false,
+      scaleControl: false,
+      zoomControl: true,
+      zoomControlOptions: { position: naver.maps.Position.RIGHT_BOTTOM },
+    });
+
+    return {
+      name: "naver",
+      addMarker(t, html, onClick) {
+        const marker = new naver.maps.Marker({
+          position: new naver.maps.LatLng(t.lat, t.lng),
+          map,
+          title: t.name,
+          icon: { content: html, anchor: new naver.maps.Point(0, 0) },
+        });
+        naver.maps.Event.addListener(marker, "click", onClick);
+        return marker;
+      },
+      setVisible(marker, visible) {
+        marker.setMap(visible ? map : null);
+      },
+      panTo(lat, lng) {
+        map.panTo(new naver.maps.LatLng(lat, lng));
+      },
+    };
+  }
+
+  function createLeafletProvider() {
+    if (!window.L) throw new Error("LEAFLET_MISSING");
+
+    const map = L.map("map", {
+      center: [MAP_CENTER.lat, MAP_CENTER.lng],
+      zoom: MAP_ZOOM,
+      minZoom: 6,
+      zoomControl: false,
+    });
+    L.control.zoom({ position: "bottomright" }).addTo(map);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    }).addTo(map);
+
+    const chip = document.getElementById("map-mode");
+    if (chip) chip.hidden = false;
+
+    return {
+      name: "leaflet",
+      addMarker(t, html, onClick) {
+        const marker = L.marker([t.lat, t.lng], {
+          title: t.name,
+          icon: L.divIcon({ className: "marker-anchor", html, iconSize: null }),
+        }).addTo(map);
+        marker.on("click", onClick);
+        marker._map_ref = map;
+        return marker;
+      },
+      setVisible(marker, visible) {
+        if (visible) marker.addTo(map);
+        else marker.remove();
+      },
+      panTo(lat, lng) {
+        map.panTo([lat, lng]);
+      },
+    };
+  }
+
+  async function createProvider() {
+    try {
+      return await createNaverProvider();
+    } catch (e) {
+      return createLeafletProvider();
+    }
   }
 
   async function loadTheaters() {
@@ -74,9 +158,8 @@
 
   function applyFilters() {
     for (const t of state.theaters) {
-      const entry = state.markers.get(t.id);
-      if (!entry) continue;
-      entry.marker.setMap(isVisible(t) ? state.map : null);
+      const marker = state.markers.get(t.id);
+      if (marker) state.provider.setVisible(marker, isVisible(t));
     }
     if (state.selectedId) {
       const sel = state.theaters.find((t) => t.id === state.selectedId);
@@ -113,14 +196,10 @@
 
   function createMarkers() {
     for (const t of state.theaters) {
-      const marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng(t.lat, t.lng),
-        map: state.map,
-        title: t.name,
-        icon: { content: markerHtml(t), anchor: new naver.maps.Point(0, 0) },
-      });
-      naver.maps.Event.addListener(marker, "click", () => selectTheater(t));
-      state.markers.set(t.id, { marker });
+      const marker = state.provider.addMarker(t, markerHtml(t), () =>
+        selectTheater(t)
+      );
+      state.markers.set(t.id, marker);
     }
   }
 
@@ -186,7 +265,7 @@
 
     document.getElementById("panel").hidden = false;
 
-    state.map.panTo(new naver.maps.LatLng(t.lat, t.lng));
+    state.provider.panTo(t.lat, t.lng);
   }
 
   function closePanel() {
@@ -211,21 +290,11 @@
     updateCounts();
 
     try {
-      await loadNaverMaps();
+      state.provider = await createProvider();
     } catch (e) {
-      document.getElementById("map-notice").hidden = false;
+      console.error(e);
       return;
     }
-
-    state.map = new naver.maps.Map("map", {
-      center: new naver.maps.LatLng(36.4, 127.8),
-      zoom: 8,
-      minZoom: 6,
-      mapDataControl: false,
-      scaleControl: false,
-      zoomControl: true,
-      zoomControlOptions: { position: naver.maps.Position.RIGHT_BOTTOM },
-    });
 
     createMarkers();
   }
