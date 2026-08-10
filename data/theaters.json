@@ -288,6 +288,15 @@
         "sound": null,
         "seats": null,
         "notes": "2016년 개조관으로 시작, 2026년 상반기 리뉴얼을 거쳐 레이저 IMAX로 재오픈"
+      },
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2026년 5월 30일 리뉴얼 재오픈 (측면 스크린 밝기·화질 개선, 전석 리클라이너)"
       }
     ]
   },
@@ -348,12 +357,12 @@
       },
       {
         "format": "ScreenX",
-        "name": "2관 SCREENX",
+        "name": "SCREENX",
         "screen": null,
         "projection": "270° 3면 확장 상영",
         "sound": null,
-        "seats": 103,
-        "notes": null
+        "seats": null,
+        "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너"
       }
     ]
   },
@@ -786,9 +795,9 @@
     "id": "cgv-daegu",
     "chain": "CGV",
     "name": "CGV 대구",
-    "address": "대구광역시 중구 국채보상로 586 (한일극장)",
-    "lat": 35.8698,
-    "lng": 128.5958,
+    "address": "대구광역시 북구 침산로 93 (이마트 칠성점)",
+    "lat": 35.887,
+    "lng": 128.592,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -797,7 +806,7 @@
         "projection": "IMAX with Laser (CoLA, 4K)",
         "sound": "12채널",
         "seats": 322,
-        "notes": "비수도권 최초 IMAX 레이저 도입(국내 5번째), 시네마스코프 비율 스크린"
+        "notes": "구 메가박스 대구(이마트 칠성점) 자리에 2022년 12월 재개관. 비수도권 최초 IMAX 레이저 도입(국내 5번째), 시네마스코프 비율 스크린"
       },
       {
         "format": "ScreenX",
@@ -967,6 +976,215 @@
         "sound": "12채널",
         "seats": null,
         "notes": "2024년 11월 기존 상영관 전환 오픈. 광주터미널 폐점(2025년 3월) 이후 전남권 유일 IMAX"
+      }
+    ]
+  },
+  {
+    "id": "cgv-gimpo",
+    "chain": "CGV",
+    "name": "CGV 김포",
+    "address": "경기도 김포시 풍무로 128 (웰라움 퍼펙트시티 5층)",
+    "lat": 37.6094,
+    "lng": 126.733,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너. CGV '5월 이달의 SCREENX' 선정"
+      }
+    ]
+  },
+  {
+    "id": "cgv-baegot",
+    "chain": "CGV",
+    "name": "CGV 배곧",
+    "address": "경기도 시흥시 서울대학로278번길 61 (베니스스퀘어 7층)",
+    "lat": 37.367,
+    "lng": 126.725,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": null,
+        "notes": "2026년 5월 12일 신규 오픈, 전석 리클라이너"
+      }
+    ]
+  },
+  {
+    "id": "cgv-gangneung",
+    "chain": "CGV",
+    "name": "CGV 강릉",
+    "address": "강원특별자치도 강릉시 경강로 2120 (씨네몰 6층)",
+    "lat": 37.759,
+    "lng": 128.8975,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "8관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 126,
+        "notes": "강원권 유일의 SCREENX (춘천·구 원주점 폐관 이후), 리클라이너 좌석"
+      }
+    ]
+  },
+  {
+    "id": "cgv-ansan",
+    "chain": "CGV",
+    "name": "CGV 안산",
+    "address": "경기도 안산시 단원구 광덕대로 194 (NC백화점 안산고잔점)",
+    "lat": 37.307,
+    "lng": 126.83,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "8관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 175,
+        "notes": "안산 유일의 CGV. 4DX는 별도 관에서 운영 (ULTRA 4DX 아님)"
+      }
+    ]
+  },
+  {
+    "id": "cgv-ori",
+    "chain": "CGV",
+    "name": "CGV 오리",
+    "address": "경기도 성남시 분당구 탄천상로151번길 20 (CGV SQUARE 4층)",
+    "lat": 37.3397,
+    "lng": 127.1075,
+    "auditoriums": [
+      {
+        "format": "ScreenX",
+        "name": "6관 SCREENX",
+        "screen": null,
+        "projection": "270° 3면 확장 상영",
+        "sound": null,
+        "seats": 233,
+        "notes": "2000년 개관한 CGV 4호점 (오리역 인근)"
+      }
+    ]
+  },
+  {
+    "id": "mb-guui-eastpol",
+    "chain": "메가박스",
+    "name": "메가박스 구의이스트폴",
+    "address": "서울특별시 광진구 아차산로 402 (이스트폴타워 판매동 3층)",
+    "lat": 37.5372,
+    "lng": 127.0857,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저 (싱글)",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 아시아 최초 DVA관(2025년 6월), 국내 돌비관 최초 리클라이너 도입, 전관 특별관 지점"
+      }
+    ]
+  },
+  {
+    "id": "mb-mokdong",
+    "chain": "메가박스",
+    "name": "메가박스 목동",
+    "address": "서울특별시 양천구 목동동로 309 (행복한백화점 6층)",
+    "lat": 37.5297,
+    "lng": 126.871,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 318,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 2호 DVA관 (2025년 7월)"
+      }
+    ]
+  },
+  {
+    "id": "mb-sangam",
+    "chain": "메가박스",
+    "name": "메가박스 상암월드컵경기장",
+    "address": "서울특별시 마포구 월드컵로 240 (서울월드컵경기장)",
+    "lat": 37.5683,
+    "lng": 126.8972,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 5호 DVA관 (2026년 2월)"
+      }
+    ]
+  },
+  {
+    "id": "mb-cheongju-terminal",
+    "chain": "메가박스",
+    "name": "메가박스 청주터미널",
+    "address": "충청북도 청주시 흥덕구 2순환로 1225 (청주 센트럴시티 6~7층)",
+    "lat": 36.6215,
+    "lng": 127.43,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 충북 최초 돌비 특별관 (2025년 8월, 지점 신규 개관과 동시). 전관 특별관·전석 리클라이너"
+      }
+    ]
+  },
+  {
+    "id": "mb-suwon-starfield",
+    "chain": "메가박스",
+    "name": "메가박스 수원스타필드",
+    "address": "경기도 수원시 장안구 수성로 175 (스타필드 수원 6~7층)",
+    "lat": 37.2872,
+    "lng": 126.988,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": null,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 기존 Dolby Atmos관을 전환해 2026년 5월 오픈 (국내 6호)"
+      }
+    ]
+  },
+  {
+    "id": "mb-goyang-starfield",
+    "chain": "메가박스",
+    "name": "메가박스 고양스타필드",
+    "address": "경기도 고양시 덕양구 고양대로 1955 (스타필드 고양 4~5층)",
+    "lat": 37.6475,
+    "lng": 126.8917,
+    "auditoriums": [
+      {
+        "format": "DolbyCinema",
+        "name": "DVA (Dolby Vision + Atmos)",
+        "screen": null,
+        "projection": "Dolby Vision 4K 레이저",
+        "sound": "Dolby Atmos",
+        "seats": 218,
+        "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 4호 DVA관 (2025년 11월)"
       }
     ]
   }
