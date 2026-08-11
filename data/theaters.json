@@ -4,8 +4,8 @@
     "chain": "CGV",
     "name": "CGV 용산아이파크몰",
     "address": "서울특별시 용산구 한강대로23길 55 (아이파크몰)",
-    "lat": 37.5299,
-    "lng": 126.9648,
+    "lat": 37.53068,
+    "lng": 126.96551,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -27,15 +27,17 @@
         "seats": 200,
         "notes": "세계 최초 4면 SCREENX관(2025년 1월). 전 좌석 리클라이너, 프라이빗 박스 8석. ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-wangsimni",
     "chain": "CGV",
     "name": "CGV 왕십리",
     "address": "서울특별시 성동구 왕십리광장로 17",
-    "lat": 37.5613,
-    "lng": 127.0378,
+    "lat": 37.56165,
+    "lng": 127.03727,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -57,7 +59,9 @@
         "seats": null,
         "notes": "2025년 11월 리클라이너·Dolby Atmos 리뉴얼. ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-yeongdeungpo",
@@ -87,15 +91,17 @@
         "seats": null,
         "notes": "세계 최대 규모 SCREENX(PLF)관. 2025년 11월 리클라이너·브라이트 윙스크린·4K 레이저 리뉴얼"
       }
-    ]
+    ],
+    "geoSrc": "current_estimate",
+    "geoConf": "high"
   },
   {
     "id": "cgv-cheonho",
     "chain": "CGV",
     "name": "CGV 천호",
-    "address": "서울특별시 강동구 천호대로 1005",
-    "lat": 37.5385,
-    "lng": 127.1238,
+    "address": "서울특별시 강동구 양재대로 1571 (홈플러스 강동점)",
+    "lat": 37.54584,
+    "lng": 127.14266,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -117,15 +123,17 @@
         "seats": 162,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-apgujeong",
     "chain": "CGV",
     "name": "CGV 압구정",
     "address": "서울특별시 강남구 압구정로30길 45",
-    "lat": 37.527,
-    "lng": 127.0287,
+    "lat": 37.52708,
+    "lng": 127.03117,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -139,15 +147,17 @@
         "screenH": 8.5,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-hongdae",
     "chain": "CGV",
     "name": "CGV 홍대",
     "address": "서울특별시 마포구 양화로 153",
-    "lat": 37.557,
-    "lng": 126.9237,
+    "lat": 37.55604,
+    "lng": 126.92277,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -158,15 +168,17 @@
         "seats": null,
         "notes": "2025년 12월 SCREENX관 리뉴얼 오픈(용산·영등포·왕십리에 이은 거점 업그레이드)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-guro",
     "chain": "CGV",
     "name": "CGV 구로",
     "address": "서울특별시 구로구 구로중앙로 152 (NC백화점 신구로점)",
-    "lat": 37.5027,
-    "lng": 126.882,
+    "lat": 37.50118,
+    "lng": 126.88235,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -177,15 +189,17 @@
         "seats": 171,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-deungchon",
     "chain": "CGV",
     "name": "CGV 등촌",
     "address": "서울특별시 강서구 공항대로45길 63",
-    "lat": 37.5506,
-    "lng": 126.8654,
+    "lat": 37.55488,
+    "lng": 126.85636,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -196,15 +210,17 @@
         "seats": null,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-sangbong",
     "chain": "CGV",
     "name": "CGV 상봉",
     "address": "서울특별시 중랑구 상봉로 131",
-    "lat": 37.5967,
-    "lng": 127.0857,
+    "lat": 37.59628,
+    "lng": 127.0914,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -215,15 +231,17 @@
         "seats": 174,
         "notes": "ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-sinchon-artreon",
     "chain": "CGV",
     "name": "CGV 신촌아트레온",
     "address": "서울특별시 서대문구 신촌로 129",
-    "lat": 37.5559,
-    "lng": 126.937,
+    "lat": 37.55548,
+    "lng": 126.93662,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -234,15 +252,17 @@
         "seats": null,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-godeok-gangil",
     "chain": "CGV",
     "name": "CGV 고덕강일",
     "address": "서울특별시 강동구 고덕비즈밸리로 51",
-    "lat": 37.557,
-    "lng": 127.174,
+    "lat": 37.57325,
+    "lng": 127.17214,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -253,15 +273,17 @@
         "seats": 127,
         "notes": "2025년 4월 개관. 국내 세 번째 리클라이너 SCREENX관"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-ilsan",
     "chain": "CGV",
     "name": "CGV 일산",
     "address": "경기도 고양시 일산동구 정발산로 24 (웨스턴돔)",
-    "lat": 37.6583,
-    "lng": 126.7705,
+    "lat": 37.65806,
+    "lng": 126.76918,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -283,15 +305,17 @@
         "seats": null,
         "notes": "국내 최초 리클라이너 SCREENX관(2024년 리뉴얼). ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-uijeongbu",
     "chain": "CGV",
     "name": "CGV 의정부",
     "address": "경기도 의정부시 평화로 525 (의정부역 신세계백화점)",
-    "lat": 37.7382,
-    "lng": 127.046,
+    "lat": 37.73814,
+    "lng": 127.04553,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -314,15 +338,17 @@
         "seats": null,
         "notes": "2026년 5월 30일 리뉴얼 재오픈 (측면 스크린 밝기·화질 개선, 전석 리클라이너)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-sopoong",
     "chain": "CGV",
     "name": "CGV 소풍",
     "address": "경기도 부천시 원미구 송내대로 239 (부천터미널 소풍)",
-    "lat": 37.5041,
-    "lng": 126.7525,
+    "lat": 37.501,
+    "lng": 126.75341,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -336,15 +362,17 @@
         "screenH": 9,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-bucheon",
     "chain": "CGV",
     "name": "CGV 부천",
     "address": "경기도 부천시 길주로 180 (현대백화점 중동점)",
-    "lat": 37.5037,
-    "lng": 126.7629,
+    "lat": 37.5036,
+    "lng": 126.76203,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -355,15 +383,17 @@
         "seats": null,
         "notes": "2026년 상반기 리뉴얼로 리클라이너 전환"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-incheon",
     "chain": "CGV",
     "name": "CGV 인천",
     "address": "인천광역시 남동구 예술로 198 (구월동)",
-    "lat": 37.4485,
-    "lng": 126.7024,
+    "lat": 37.44789,
+    "lng": 126.70508,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -386,15 +416,17 @@
         "seats": null,
         "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-pangyo",
     "chain": "CGV",
     "name": "CGV 판교",
     "address": "경기도 성남시 분당구 판교역로146번길 20 (알파돔타워)",
-    "lat": 37.3947,
-    "lng": 127.111,
+    "lat": 37.3949,
+    "lng": 127.11446,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -416,15 +448,17 @@
         "seats": 214,
         "notes": "⚠️ 2026년 8월 19일 영업 종료 예정 (9월 신규 야탑점으로 SCREENX 이전 운영 예정)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-gwanggyo",
     "chain": "CGV",
     "name": "CGV 광교",
     "address": "경기도 수원시 영통구 광교중앙로 124 (갤러리아 광교)",
-    "lat": 37.2865,
-    "lng": 127.0565,
+    "lat": 37.2858,
+    "lng": 127.05804,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -447,15 +481,17 @@
         "seats": null,
         "notes": "ULTRA 4DX 결합관으로 운영"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-dongsuwon",
     "chain": "CGV",
     "name": "CGV 동수원",
     "address": "경기도 수원시 팔달구 중부대로 223",
-    "lat": 37.267,
-    "lng": 127.034,
+    "lat": 37.26377,
+    "lng": 127.03219,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -466,15 +502,17 @@
         "seats": 108,
         "notes": "ULTRA 4DX 결합관으로 운영 (기존 단독 SCREENX관은 폐지)"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-wirye",
     "chain": "CGV",
     "name": "CGV 스타필드시티위례",
     "address": "경기도 하남시 위례대로 200 (스타필드시티 위례)",
-    "lat": 37.4776,
-    "lng": 127.1449,
+    "lat": 37.48043,
+    "lng": 127.14871,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -487,15 +525,17 @@
         "screenW": 14.8,
         "screenH": 8
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-dongtan",
     "chain": "CGV",
     "name": "CGV 동탄",
-    "address": "경기도 화성시 동탄역로 160 (롯데백화점 동탄점)",
-    "lat": 37.2007,
-    "lng": 127.0975,
+    "address": "경기도 화성시 동탄중앙로 220 (메타폴리스 타임테라스)",
+    "lat": 37.20516,
+    "lng": 127.06934,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -504,17 +544,19 @@
         "projection": "IMAX with Laser (4K)",
         "sound": "12채널",
         "seats": 246,
-        "notes": "2022년 개관, 화성시 최초 IMAX, 최대 1.90:1 비율"
+        "notes": "메타폴리스 타임테라스 입점. 2022년 IMAX LASER 오픈, 화성시 최초 IMAX, 최대 1.90:1 비율"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-pyeongtaek",
     "chain": "CGV",
     "name": "CGV 평택",
     "address": "경기도 평택시 평택로 51 (평택역 AK플라자)",
-    "lat": 36.9905,
-    "lng": 127.085,
+    "lat": 36.99085,
+    "lng": 127.08572,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -528,15 +570,17 @@
         "screenH": 7.8,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "mb-suwon-ak",
     "chain": "메가박스",
     "name": "메가박스 수원AK플라자",
     "address": "경기도 수원시 팔달구 덕영대로 924 (AK플라자 수원)",
-    "lat": 37.2659,
-    "lng": 127.0,
+    "lat": 37.26612,
+    "lng": 127.00048,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -549,15 +593,17 @@
         "screenW": 14.8,
         "screenH": 8.71
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "mb-hanam",
     "chain": "메가박스",
     "name": "메가박스 하남스타필드",
     "address": "경기도 하남시 미사대로 750 (스타필드 하남)",
-    "lat": 37.5453,
-    "lng": 127.2235,
+    "lat": 37.54481,
+    "lng": 127.22533,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -571,15 +617,17 @@
         "screenH": 11.9,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "mb-namyangju",
     "chain": "메가박스",
     "name": "메가박스 남양주현대아울렛 스페이스원",
     "address": "경기도 남양주시 다산순환로 50 (현대프리미엄아울렛 스페이스원)",
-    "lat": 37.618,
-    "lng": 127.153,
+    "lat": 37.61658,
+    "lng": 127.15176,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -593,15 +641,17 @@
         "screenH": 11.7,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "mb-anseong",
     "chain": "메가박스",
     "name": "메가박스 안성스타필드",
     "address": "경기도 안성시 공도읍 서동대로 3930-39 (스타필드 안성)",
-    "lat": 37.0009,
-    "lng": 127.1665,
+    "lat": 36.99451,
+    "lng": 127.14578,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -615,15 +665,17 @@
         "screenH": 7.0,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "mb-songdo",
     "chain": "메가박스",
     "name": "메가박스 송도",
     "address": "인천광역시 연수구 송도과학로16번길 33-4 (트리플스트리트 D동)",
-    "lat": 37.3812,
-    "lng": 126.6575,
+    "lat": 37.38198,
+    "lng": 126.66407,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -637,15 +689,17 @@
         "screenH": 10.0,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "mb-coex",
     "chain": "메가박스",
     "name": "메가박스 코엑스",
     "address": "서울특별시 강남구 봉은사로 524 (스타필드 코엑스몰)",
-    "lat": 37.5124,
-    "lng": 127.0588,
+    "lat": 37.51282,
+    "lng": 127.0585,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -658,15 +712,17 @@
         "screenW": 17.4,
         "screenH": 7.4
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-chuncheon",
     "chain": "CGV",
     "name": "CGV 춘천",
     "address": "강원특별자치도 춘천시 지석로 80 (투탑시티)",
-    "lat": 37.8577,
-    "lng": 127.7345,
+    "lat": 37.84759,
+    "lng": 127.73285,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -680,15 +736,17 @@
         "screenH": 9.4,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-daejeon",
     "chain": "CGV",
     "name": "CGV 대전",
     "address": "대전광역시 중구 계백로 1700 (백화점 세이)",
-    "lat": 36.3226,
-    "lng": 127.4076,
+    "lat": 36.31289,
+    "lng": 127.40542,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -701,15 +759,17 @@
         "screenW": 16,
         "screenH": 8.5
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-daejeon-terminal",
     "chain": "CGV",
     "name": "CGV 대전터미널",
     "address": "대전광역시 동구 동서대로 1689 (대전복합터미널 동관)",
-    "lat": 36.3497,
-    "lng": 127.4372,
+    "lat": 36.35058,
+    "lng": 127.43709,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -732,15 +792,17 @@
         "seats": 230,
         "notes": "2023년 12월 SCREENX PLF 도입"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "mb-daejeon-shinsegae",
     "chain": "메가박스",
     "name": "메가박스 대전신세계 아트앤사이언스",
     "address": "대전광역시 유성구 엑스포로 1 (대전신세계 Art & Science)",
-    "lat": 36.3746,
-    "lng": 127.3812,
+    "lat": 36.37522,
+    "lng": 127.38103,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -754,15 +816,17 @@
         "screenH": 11.8,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-sejong",
     "chain": "CGV",
     "name": "CGV 세종",
     "address": "세종특별자치시 도움1로 108 (몰리브)",
-    "lat": 36.5033,
-    "lng": 127.2637,
+    "lat": 36.49075,
+    "lng": 127.25606,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -773,15 +837,17 @@
         "seats": null,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-cheonan-pentaport",
     "chain": "CGV",
     "name": "CGV 천안펜타포트",
     "address": "충청남도 천안시 서북구 공원로 196 (펜타포트몰)",
-    "lat": 36.8186,
-    "lng": 127.1082,
+    "lat": 36.8194,
+    "lng": 127.10978,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -804,7 +870,9 @@
         "seats": null,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-cheonan-terminal",
@@ -835,15 +903,17 @@
         "seats": null,
         "notes": "ULTRA 4DX 결합관으로 운영"
       }
-    ]
+    ],
+    "geoSrc": "current_estimate",
+    "geoConf": "high"
   },
   {
     "id": "cgv-cheongju-seomun",
     "chain": "CGV",
     "name": "CGV 청주(서문)",
     "address": "충청북도 청주시 상당구 상당로81번길 63",
-    "lat": 36.6352,
-    "lng": 127.489,
+    "lat": 36.63499,
+    "lng": 127.48705,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -854,15 +924,17 @@
         "seats": 258,
         "notes": "2022년 7월 개관, 충청북도 최초이자 유일의 IMAX관"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "medium"
   },
   {
     "id": "cgv-daegu",
     "chain": "CGV",
     "name": "CGV 대구",
     "address": "대구광역시 북구 침산로 93 (이마트 칠성점)",
-    "lat": 35.887,
-    "lng": 128.592,
+    "lat": 35.88457,
+    "lng": 128.59064,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -884,15 +956,17 @@
         "seats": 120,
         "notes": "대구 시내 유일의 SCREENX 상영 가능관"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "mb-daegu-shinsegae",
     "chain": "메가박스",
     "name": "메가박스 대구신세계",
     "address": "대구광역시 동구 동부로 149 (신세계백화점 대구점)",
-    "lat": 35.877,
-    "lng": 128.6284,
+    "lat": 35.87813,
+    "lng": 128.62899,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -905,15 +979,17 @@
         "screenW": 15.7,
         "screenH": 8.5
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-seomyeon",
     "chain": "CGV",
     "name": "CGV 서면",
     "address": "부산광역시 부산진구 동천로 4 (지오플레이스)",
-    "lat": 35.1555,
-    "lng": 129.0633,
+    "lat": 35.14955,
+    "lng": 129.06435,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -936,7 +1012,9 @@
         "seats": null,
         "notes": "2022년 리뉴얼로 측면 전용 실버스크린 설치"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-centum",
@@ -944,7 +1022,7 @@
     "name": "CGV 센텀시티",
     "address": "부산광역시 해운대구 센텀남대로 35 (신세계 센텀시티)",
     "lat": 35.1691,
-    "lng": 129.1308,
+    "lng": 129.12955,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -967,15 +1045,17 @@
         "seats": null,
         "notes": "부산 유일의 ULTRA 4DX(4DX+SCREENX, 128석)관도 별도 운영"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-ulsan-samsan",
     "chain": "CGV",
     "name": "CGV 울산삼산",
     "address": "울산광역시 남구 화합로 185 (업스퀘어)",
-    "lat": 35.5385,
-    "lng": 129.336,
+    "lat": 35.53523,
+    "lng": 129.3337,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -997,15 +1077,17 @@
         "seats": null,
         "notes": null
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "cgv-changwon-thecity",
     "chain": "CGV",
     "name": "CGV 창원더시티",
     "address": "경상남도 창원시 성산구 원이대로 320 (더시티세븐)",
-    "lat": 35.232,
-    "lng": 128.664,
+    "lat": 35.24022,
+    "lng": 128.65358,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -1019,15 +1101,17 @@
         "screenH": 8.8,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-jeonju-hyoja",
     "chain": "CGV",
     "name": "CGV 전주효자",
     "address": "전북특별자치도 전주시 완산구 용머리로 45",
-    "lat": 35.81,
-    "lng": 127.11,
+    "lat": 35.8069,
+    "lng": 127.11533,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -1040,15 +1124,17 @@
         "screenW": 24.4,
         "screenH": 14
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-suncheon-sindae",
     "chain": "CGV",
     "name": "CGV 순천신대",
     "address": "전라남도 순천시 해룡면 해광로 199",
-    "lat": 34.92,
-    "lng": 127.548,
+    "lat": 34.92621,
+    "lng": 127.55247,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -1062,15 +1148,17 @@
         "screenH": 9.5,
         "screenEst": true
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "cgv-gimpo",
     "chain": "CGV",
     "name": "CGV 김포",
     "address": "경기도 김포시 풍무로 128 (웰라움 퍼펙트시티 5층)",
-    "lat": 37.6094,
-    "lng": 126.733,
+    "lat": 37.60104,
+    "lng": 126.71952,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1081,15 +1169,17 @@
         "seats": null,
         "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너. CGV '5월 이달의 SCREENX' 선정"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-baegot",
     "chain": "CGV",
     "name": "CGV 배곧",
     "address": "경기도 시흥시 서울대학로278번길 61 (베니스스퀘어 7층)",
-    "lat": 37.367,
-    "lng": 126.725,
+    "lat": 37.3711,
+    "lng": 126.72844,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1100,15 +1190,17 @@
         "seats": null,
         "notes": "2026년 5월 12일 신규 오픈, 전석 리클라이너"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-gangneung",
     "chain": "CGV",
     "name": "CGV 강릉",
     "address": "강원특별자치도 강릉시 경강로 2120 (씨네몰 6층)",
-    "lat": 37.759,
-    "lng": 128.8975,
+    "lat": 37.75569,
+    "lng": 128.89865,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1119,15 +1211,17 @@
         "seats": 126,
         "notes": "강원권 유일의 SCREENX (춘천·구 원주점 폐관 이후), 리클라이너 좌석"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-ansan",
     "chain": "CGV",
     "name": "CGV 안산",
     "address": "경기도 안산시 단원구 광덕대로 194 (NC백화점 안산고잔점)",
-    "lat": 37.307,
-    "lng": 126.83,
+    "lat": 37.30539,
+    "lng": 126.82803,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1138,15 +1232,17 @@
         "seats": 175,
         "notes": "안산 유일의 CGV. 4DX는 별도 관에서 운영 (ULTRA 4DX 아님)"
       }
-    ]
+    ],
+    "geoSrc": "addr_geocode",
+    "geoConf": "high"
   },
   {
     "id": "cgv-ori",
     "chain": "CGV",
     "name": "CGV 오리",
     "address": "경기도 성남시 분당구 탄천상로151번길 20 (CGV SQUARE 4층)",
-    "lat": 37.3397,
-    "lng": 127.1075,
+    "lat": 37.34029,
+    "lng": 127.10644,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1157,15 +1253,17 @@
         "seats": 233,
         "notes": "2000년 개관한 CGV 4호점 (오리역 인근)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "mb-guui-eastpol",
     "chain": "메가박스",
     "name": "메가박스 구의이스트폴",
     "address": "서울특별시 광진구 아차산로 402 (이스트폴타워 판매동 3층)",
-    "lat": 37.5372,
-    "lng": 127.0857,
+    "lat": 37.53669,
+    "lng": 127.08799,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1176,15 +1274,17 @@
         "seats": null,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 아시아 최초 DVA관(2025년 6월), 국내 돌비관 최초 리클라이너 도입, 전관 특별관 지점"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "mb-mokdong",
     "chain": "메가박스",
     "name": "메가박스 목동",
     "address": "서울특별시 양천구 목동동로 309 (행복한백화점 6층)",
-    "lat": 37.5297,
-    "lng": 126.871,
+    "lat": 37.52903,
+    "lng": 126.87605,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1195,15 +1295,17 @@
         "seats": 318,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 2호 DVA관 (2025년 7월)"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "mb-sangam",
     "chain": "메가박스",
     "name": "메가박스 상암월드컵경기장",
     "address": "서울특별시 마포구 월드컵로 240 (서울월드컵경기장)",
-    "lat": 37.5683,
-    "lng": 126.8972,
+    "lat": 37.568,
+    "lng": 126.89875,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1214,15 +1316,17 @@
         "seats": null,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 5호 DVA관 (2026년 2월)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "mb-cheongju-terminal",
     "chain": "메가박스",
     "name": "메가박스 청주터미널",
     "address": "충청북도 청주시 흥덕구 2순환로 1225 (청주 센트럴시티 6~7층)",
-    "lat": 36.6215,
-    "lng": 127.43,
+    "lat": 36.62705,
+    "lng": 127.43255,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1233,15 +1337,17 @@
         "seats": null,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 충북 최초 돌비 특별관 (2025년 8월, 지점 신규 개관과 동시). 전관 특별관·전석 리클라이너"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   },
   {
     "id": "mb-suwon-starfield",
     "chain": "메가박스",
     "name": "메가박스 수원스타필드",
     "address": "경기도 수원시 장안구 수성로 175 (스타필드 수원 6~7층)",
-    "lat": 37.2872,
-    "lng": 126.988,
+    "lat": 37.28753,
+    "lng": 126.99171,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1252,15 +1358,17 @@
         "seats": null,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 기존 Dolby Atmos관을 전환해 2026년 5월 오픈 (국내 6호)"
       }
-    ]
+    ],
+    "geoSrc": "corrected",
+    "geoConf": "high"
   },
   {
     "id": "mb-goyang-starfield",
     "chain": "메가박스",
     "name": "메가박스 고양스타필드",
     "address": "경기도 고양시 덕양구 고양대로 1955 (스타필드 고양 4~5층)",
-    "lat": 37.6475,
-    "lng": 126.8917,
+    "lat": 37.64844,
+    "lng": 126.89423,
     "auditoriums": [
       {
         "format": "DolbyCinema",
@@ -1271,6 +1379,8 @@
         "seats": 218,
         "notes": "공식 'Dolby Cinema' 브랜드가 아닌 메가박스 DVA(Dolby Vision + Atmos) 특별관. 국내 4호 DVA관 (2025년 11월)"
       }
-    ]
+    ],
+    "geoSrc": "osm_poi",
+    "geoConf": "high"
   }
 ]

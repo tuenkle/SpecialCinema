@@ -13,6 +13,27 @@ FORMATS = ("IMAX", "ScreenX", "DolbyCinema")
 REQUIRED_THEATER_KEYS = {"id", "chain", "name", "address", "lat", "lng", "auditoriums"}
 REQUIRED_AUD_KEYS = {"format", "name", "screen", "projection", "sound", "seats", "notes"}
 
+# 주소의 시/도가 좌표와 일치하는지 검사하는 광역 바운딩 박스 (근사값, 여유 포함)
+PROVINCE_BBOX = {
+    "서울특별시": (37.42, 37.72, 126.76, 127.19),
+    "인천광역시": (37.33, 37.62, 126.36, 126.80),
+    "경기도": (36.89, 38.30, 126.38, 127.86),
+    "강원특별자치도": (37.02, 38.62, 127.08, 129.37),
+    "대전광역시": (36.18, 36.50, 127.24, 127.56),
+    "세종특별자치시": (36.41, 36.73, 127.11, 127.42),
+    "충청남도": (35.97, 37.03, 125.90, 127.65),
+    "충청북도": (36.00, 37.22, 127.24, 128.66),
+    "대구광역시": (35.60, 36.02, 128.34, 128.77),
+    "부산광역시": (34.98, 35.40, 128.75, 129.31),
+    "울산광역시": (35.31, 35.73, 128.96, 129.47),
+    "경상남도": (34.55, 35.91, 127.57, 129.29),
+    "경상북도": (35.57, 37.55, 127.79, 129.70),
+    "전라남도": (33.89, 35.50, 125.06, 127.91),
+    "전북특별자치도": (35.29, 36.16, 125.96, 127.92),
+    "광주광역시": (35.05, 35.26, 126.64, 127.02),
+    "제주특별자치도": (33.10, 33.61, 126.14, 126.98),
+}
+
 
 def main() -> int:
     path = Path(__file__).resolve().parent.parent / "data" / "theaters.json"
@@ -32,6 +53,14 @@ def main() -> int:
             continue
         if not (33 < t["lat"] < 39 and 124 < t["lng"] < 132):
             errors.append(f"{name}: 좌표가 한국 범위를 벗어남 ({t['lat']}, {t['lng']})")
+        province = t["address"].split()[0]
+        bbox = PROVINCE_BBOX.get(province)
+        if bbox is None:
+            errors.append(f"{name}: 알 수 없는 시/도 '{province}'")
+        else:
+            s, n, w, e = bbox
+            if not (s <= t["lat"] <= n and w <= t["lng"] <= e):
+                errors.append(f"{name}: 좌표가 주소의 시/도({province}) 범위를 벗어남 ({t['lat']}, {t['lng']})")
         if not t["auditoriums"]:
             errors.append(f"{name}: 특별관이 하나도 없음")
         for a in t["auditoriums"]:
