@@ -197,9 +197,9 @@
     "id": "cgv-deungchon",
     "chain": "CGV",
     "name": "CGV 등촌",
-    "address": "서울특별시 강서구 공항대로45길 63",
-    "lat": 37.55488,
-    "lng": 126.85636,
+    "address": "서울특별시 강서구 공항대로45길 63 (더브리티시몰, 홈플러스 강서점 인근)",
+    "lat": 37.55791,
+    "lng": 126.85602,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -211,7 +211,7 @@
         "notes": null
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -282,8 +282,8 @@
     "chain": "CGV",
     "name": "CGV 일산",
     "address": "경기도 고양시 일산동구 정발산로 24 (웨스턴돔)",
-    "lat": 37.65806,
-    "lng": 126.76918,
+    "lat": 37.65511,
+    "lng": 126.77267,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -306,7 +306,7 @@
         "notes": "국내 최초 리클라이너 SCREENX관(2024년 리뉴얼). ULTRA 4DX(4DX+SCREENX)관도 별도 운영"
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -721,8 +721,8 @@
     "chain": "CGV",
     "name": "CGV 춘천",
     "address": "강원특별자치도 춘천시 지석로 80 (투탑시티)",
-    "lat": 37.84759,
-    "lng": 127.73285,
+    "lat": 37.85063,
+    "lng": 127.74381,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -737,7 +737,7 @@
         "screenEst": true
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -745,8 +745,8 @@
     "chain": "CGV",
     "name": "CGV 대전",
     "address": "대전광역시 중구 계백로 1700 (백화점 세이)",
-    "lat": 36.31289,
-    "lng": 127.40542,
+    "lat": 36.32061,
+    "lng": 127.40854,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -760,7 +760,7 @@
         "screenH": 8.5
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -846,8 +846,8 @@
     "chain": "CGV",
     "name": "CGV 천안펜타포트",
     "address": "충청남도 천안시 서북구 공원로 196 (펜타포트몰)",
-    "lat": 36.8194,
-    "lng": 127.10978,
+    "lat": 36.79857,
+    "lng": 127.1011,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -871,7 +871,7 @@
         "notes": null
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -1178,8 +1178,8 @@
     "chain": "CGV",
     "name": "CGV 배곧",
     "address": "경기도 시흥시 서울대학로278번길 61 (베니스스퀘어 7층)",
-    "lat": 37.3711,
-    "lng": 126.72844,
+    "lat": 37.36819,
+    "lng": 126.73069,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1191,7 +1191,7 @@
         "notes": "2026년 5월 12일 신규 오픈, 전석 리클라이너"
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -1220,8 +1220,8 @@
     "chain": "CGV",
     "name": "CGV 안산",
     "address": "경기도 안산시 단원구 광덕대로 194 (NC백화점 안산고잔점)",
-    "lat": 37.30539,
-    "lng": 126.82803,
+    "lat": 37.31349,
+    "lng": 126.83098,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1233,7 +1233,7 @@
         "notes": "안산 유일의 CGV. 4DX는 별도 관에서 운영 (ULTRA 4DX 아님)"
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
