@@ -1157,8 +1157,8 @@
     "chain": "CGV",
     "name": "CGV 김포",
     "address": "경기도 김포시 풍무로 128 (웰라움 퍼펙트시티 5층)",
-    "lat": 37.60104,
-    "lng": 126.71952,
+    "lat": 37.6102,
+    "lng": 126.72407,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -1170,7 +1170,7 @@
         "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너. CGV '5월 이달의 SCREENX' 선정"
       }
     ],
-    "geoSrc": "addr_geocode",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
