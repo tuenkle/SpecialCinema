@@ -132,8 +132,8 @@
     "chain": "CGV",
     "name": "CGV 압구정",
     "address": "서울특별시 강남구 압구정로30길 45",
-    "lat": 37.52708,
-    "lng": 127.03117,
+    "lat": 37.52435,
+    "lng": 127.0294,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -148,7 +148,7 @@
         "screenEst": true
       }
     ],
-    "geoSrc": "osm_poi",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -347,8 +347,8 @@
     "chain": "CGV",
     "name": "CGV 소풍",
     "address": "경기도 부천시 원미구 송내대로 239 (부천터미널 소풍)",
-    "lat": 37.501,
-    "lng": 126.75341,
+    "lat": 37.50483,
+    "lng": 126.75653,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -363,7 +363,7 @@
         "screenEst": true
       }
     ],
-    "geoSrc": "osm_poi",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -392,8 +392,8 @@
     "chain": "CGV",
     "name": "CGV 인천",
     "address": "인천광역시 남동구 예술로 198 (구월동)",
-    "lat": 37.44789,
-    "lng": 126.70508,
+    "lat": 37.45153,
+    "lng": 126.7018,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -417,16 +417,16 @@
         "notes": "2026년 5월 30일 신규 오픈 (배곧·인천·김포 동시), 전석 리클라이너"
       }
     ],
-    "geoSrc": "osm_poi",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
     "id": "cgv-pangyo",
     "chain": "CGV",
     "name": "CGV 판교",
-    "address": "경기도 성남시 분당구 판교역로146번길 20 (알파돔타워)",
-    "lat": 37.3949,
-    "lng": 127.11446,
+    "address": "경기도 성남시 분당구 판교역로146번길 20 (현대백화점 판교점)",
+    "lat": 37.39333,
+    "lng": 127.11236,
     "auditoriums": [
       {
         "format": "IMAX",
@@ -435,7 +435,7 @@
         "projection": "IMAX 제논 2K 디지털",
         "sound": null,
         "seats": 297,
-        "notes": "경기도 최대급 스크린(왕십리와 동일 크기). ⚠️ 임대차 계약 종료로 2026년 8월 19일 폐점 예정",
+        "notes": "현대백화점 판교점 입점. 경기도 최대급 스크린(왕십리와 동일 크기). ⚠️ 임대차 계약 종료로 2026년 8월 19일 폐점 예정",
         "screenW": 22,
         "screenH": 13.3
       },
@@ -449,7 +449,7 @@
         "notes": "⚠️ 2026년 8월 19일 영업 종료 예정 (9월 신규 야탑점으로 SCREENX 이전 운영 예정)"
       }
     ],
-    "geoSrc": "osm_poi",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
@@ -825,8 +825,8 @@
     "chain": "CGV",
     "name": "CGV 세종",
     "address": "세종특별자치시 도움1로 108 (몰리브)",
-    "lat": 36.49075,
-    "lng": 127.25606,
+    "lat": 36.50264,
+    "lng": 127.24757,
     "auditoriums": [
       {
         "format": "ScreenX",
@@ -838,7 +838,7 @@
         "notes": null
       }
     ],
-    "geoSrc": "osm_poi",
+    "geoSrc": "corrected",
     "geoConf": "high"
   },
   {
