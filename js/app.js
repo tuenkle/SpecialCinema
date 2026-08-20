@@ -210,7 +210,12 @@
     return "<dt>" + esc(label) + "</dt><dd>" + esc(value) + "</dd>";
   }
 
-  function audCard(a) {
+  function audCard(a, theaterId) {
+    const simLink =
+      (a.format === "IMAX" || a.format === "DolbyCinema") && a.screenW
+        ? '<a class="aud-sim-link" href="sim.html?h=' + theaterId + "-" + a.format +
+          '">🪑 좌석 시야 시뮬레이션 →</a>'
+        : "";
     const rows =
       specRow("스크린", a.screen) +
       specRow("영사", a.projection) +
@@ -224,6 +229,7 @@
       "</div>" +
       (rows ? '<dl class="spec-grid">' + rows + "</dl>" : "") +
       (a.notes ? '<div class="aud-notes">' + esc(a.notes) + "</div>" : "") +
+      simLink +
       "</div>"
     );
   }
@@ -256,7 +262,7 @@
         : "") +
       '<a href="' + naverSearch + '" target="_blank" rel="noopener">네이버 지도에서 보기</a>' +
       "</div>" +
-      '<div class="aud-list">' + audsToShow.map(audCard).join("") + "</div>";
+      '<div class="aud-list">' + audsToShow.map((a) => audCard(a, t.id)).join("") + "</div>";
 
     document.getElementById("panel").hidden = false;
 

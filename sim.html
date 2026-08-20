@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>좌석 시야 시뮬레이션 — IMAX · Dolby Cinema</title>
+  <meta name="description" content="IMAX·Dolby Cinema 상영관에서 좌석별로 스크린이 어떻게 보이는지 시뮬레이션합니다." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">🎬</span>
+      <h1>좌석 시야 시뮬레이션</h1>
+      <span class="brand-sub">이 자리에서 스크린이 어떻게 보일까</span>
+      <a class="engine-switch" href="osm.html">지도로 ↗</a>
+      <a class="engine-switch" href="compare.html">📐 스크린 비교</a>
+    </div>
+    <nav class="filters">
+      <select id="hall-select" class="sim-select" aria-label="상영관 선택"></select>
+    </nav>
+  </header>
+
+  <main class="sim-wrap">
+    <section class="sim-card sim-view-card">
+      <div class="sim-view" id="sim-view" aria-label="선택한 좌석에서 본 스크린">
+        <div class="sim-scene" id="sim-scene"></div>
+        <div class="sim-seat-label" id="sim-seat-label"></div>
+      </div>
+      <div class="sim-metrics" id="sim-metrics"></div>
+    </section>
+
+    <section class="sim-card">
+      <h2 class="sim-h2">좌석 배치도 <span class="sim-sub">좌석을 클릭하면 그 자리의 시야를 보여줍니다</span></h2>
+      <div class="sim-map" id="sim-map"></div>
+      <div class="sim-legend">
+        <span>시야 점수</span>
+        <span class="sim-ramp"></span>
+        <span>낮음 → 높음</span>
+        <span class="sim-legend-sweet">◇ 커뮤니티 명당 열</span>
+      </div>
+      <p class="sim-foot" id="sim-foot"></p>
+    </section>
+  </main>
+
+  <script src="js/sim.js"></script>
+</body>
+</html>
