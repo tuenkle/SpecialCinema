@@ -1,1 +1,440 @@
-{}
+{
+ "cgv-yongsan-IMAX": {
+  "rows": 15,
+  "rowLetters": "A~O",
+  "seats": 624,
+  "sweetRows": "G~K",
+  "sweetNote": "나무위키 기준 보편적 명당은 G~J열, 커뮤니티에선 J~K열 중앙(시선일치 지점이 K열) 선호 — 입문자·자막작은 K~M열 추천",
+  "hallNote": "최전열 A~C열은 스크린이 머리 위로 치솟아 '최후의 용자석'으로 불리는 기피석이고, 본블록과 분리된 좌우 사이드 라인 2개가 있음. 마지막 열은 O열(뒷열 M~N열도 선호층 있음). 단차가 충분치 않아 1.43:1 풀화면 상영 시 앞사람 머리에 스크린 하단이 가리는 문제가 언급됨. 열당 좌석 번호는 정중앙 22~23번, 최대 42~46번으로 출처마다 달라 미확정.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%9A%A9%EC%82%B0%EC%95%84%EC%9D%B4%ED%8C%8C%ED%81%AC%EB%AA%B0/IMAX%EA%B4%80",
+   "https://extmovie.com/movietalk/64182780",
+   "https://extmovie.com/movietalk/91146699",
+   "https://www.clien.net/service/board/park/17197450",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=2703367",
+   "https://hannuninfo.com/cgv-%EC%9A%A9%EC%82%B0-%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4-%EB%AA%85%EB%8B%B9/",
+   "https://blog.eone.one/culture/yongamac-seat-map/",
+   "https://theqoo.net/square/1069056138"
+  ]
+ },
+ "cgv-wangsimni-IMAX": {
+  "rows": 10,
+  "rowLetters": "A~J",
+  "maxSeatsPerRow": 32,
+  "seats": 268,
+  "sweetRows": "F~H",
+  "sweetNote": "커뮤니티 명당은 F~H열 14~20번 — 스크린이 낮게 걸려 있어 고개를 들지 않고 볼 수 있는 구조",
+  "hallNote": "2024년 9월 11일 IMAX 레이저 리뉴얼 때 뒷열 K·L열을 제거해 A~L열 1~32번에서 A~J열 1~32번, 303석에서 268석으로 축소. 국내 IMAX 최초로 2줄마다 통로쪽 자리(4·15·17·28번)에 폭 1.5배 와이드 좌석을 넣어 앞줄과 지그재그가 되게 배치. 천호와 달리 중앙에 계단 통로가 있는 배치로 알려짐. A~C열 1·2번은 1인 예매 가능.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%99%95%EC%8B%AD%EB%A6%AC",
+   "https://muko.kr/movietalk/12068468",
+   "https://muko.kr/movietalk/12146265",
+   "https://cjnews.cj.net/cgv-%EC%99%95%EC%8B%AD%EB%A6%AC-imax-%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%93%B1-4%EA%B0%9C-imax%EA%B4%80-%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%84%A0%EB%B4%AC/"
+  ]
+ },
+ "cgv-yeongdeungpo-IMAX": {
+  "seats": 387,
+  "sweetRows": "H~I",
+  "sweetNote": "명당은 H·I열 중앙(13·14번 부근), 더 꽉 차게 보고 싶으면 F·G열 — E열부터는 올려다봐야 함",
+  "hallNote": "2023년 12월 기존 스피어X(구 스타리움) 상영관을 개조해 개관. 가로 22.4m로 국내 IMAX 중 가장 넓은 1.85:1 스크린. 후기상 L열까지 존재가 확인되며 L열 사선 자리는 화면이 시야보다 작게 느껴진다는 평. 총 열 수·열당 좌석 수는 미확인.",
+  "sources": [
+   "https://www.clien.net/service/board/use/18478932",
+   "https://www.fmkorea.com/6515820262",
+   "https://jisuzzang.co.kr/55",
+   "https://m.dcinside.com/board/commercial_movie/878651",
+   "https://namu.wiki/w/CGV%20%EC%98%81%EB%93%B1%ED%8F%AC"
+  ]
+ },
+ "cgv-cheonho-IMAX": {
+  "seats": 323,
+  "sweetRows": "I~K",
+  "sweetNote": "I~K열 18번(정중앙)이 최고 명당으로 꼽히고 다수가 J열 추천 — G·H열은 압도감이 크고 E열 앞쪽부터는 목을 들어야 함",
+  "hallNote": "A열부터 계단을 올라가야 할 만큼 경사가 가파르고 열간 간격이 넓어 앞사람 머리 가림이 적음. 왕십리와 달리 중앙 블록이 통로 없는 단일 섹션이라 진짜 정중앙 좌석에서 관람 가능. 레이저 리뉴얼을 거치며 347석에서 323석으로 축소. 총 열 수는 미확인(J·K열까지 존재 확인).",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%B2%9C%ED%98%B8",
+   "https://world.pe.kr/entry/%EC%B2%9C%ED%98%B8%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4",
+   "https://extmovie.com/movietalk/41711555",
+   "https://m.cafe.daum.net/RAMC/8t1g/102881?svc=cafeapi",
+   "https://www.clien.net/service/board/park/19111800"
+  ]
+ },
+ "cgv-apgujeong-IMAX": {
+  "seats": 170,
+  "sweetRows": "B~C",
+  "sweetNote": "스크린이 작은 대신 좌석과 매우 가까워 B·C열이 명당(A/B열도 무난) — 뒤쪽 F·G열은 경사에서 내려다보는 구조라 비추천",
+  "hallNote": "2022년 8월 16일 개관한 서울 강남권 최초 IMAX(본관 1관 리뉴얼). 일반석 170석 외에 국내 최초 2인용 프라이빗 박스 5개(총 10석, 지하 1층 2개·지하 2층 3개)를 별도 운영 — 박스석과 맨뒷 구석은 서라운드 스피커 뒤/아래에 위치해 사운드 면에서 비추천. 앞열이 명당이 되는 특이한 구조. 총 열 수는 미확인(F·G열까지 존재 확인).",
+  "sources": [
+   "https://www.newspim.com/news/view/20220816000108",
+   "https://cjnews.cj.net/cgv-%EC%95%95%EA%B5%AC%EC%A0%95-imax-%EC%83%81%EC%98%81%EA%B4%80%EC%97%90-%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B9%97-%EB%B0%95%EC%8A%A4-%EC%B2%AB-%EB%8F%84%EC%9E%85/",
+   "https://www.clien.net/service/board/use/17502310",
+   "https://world.pe.kr/entry/%EC%95%95%EA%B5%AC%EC%A0%95-%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4",
+   "https://theqoo.net/movie/2551598365"
+  ]
+ },
+ "cgv-ilsan-IMAX": {
+  "rows": 11,
+  "rowLetters": "A~K",
+  "seats": 250,
+  "sweetRows": "F~H",
+  "sweetNote": "나무위키 기준 명당은 F~H열 중앙, 자막을 안정적으로 보려면 H·I열 추천이 많고 단차가 가팔라 뒷열 J·K열도 화면이 꽉 찬다는 후기",
+  "hallNote": "경기 최초이자 CGV 최초 빌트인 IMAX(1.9:1). 단차가 가파르고 객석 정중앙에 통로가 있는 구조(왕십리와 배치 거의 동일). 2024-09-27 IMAX LASER 리뉴얼로 280석→250석(일부 통로석 와이드좌석 도입). A~K 11열 구조는 리뉴얼 전 커뮤니티 언급 기준으로, 리뉴얼 후 변동 가능성 있음.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%9D%BC%EC%82%B0",
+   "https://www.clien.net/service/board/park/990473",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=1455993",
+   "https://muko.kr/movietalk/12330669",
+   "https://extmovie.com/movietalk/58735019"
+  ]
+ },
+ "cgv-uijeongbu-IMAX": {
+  "seats": 266,
+  "sweetRows": "E~G",
+  "sweetNote": "커뮤니티에서 F열을 명당으로 가장 많이 꼽고 E~G열이 무난(G열 11·12번 중앙에서 스크린이 꽉 찬다는 후기), 익스트림무비 정리 기준으로는 시선일치 I열·입문 H~K열 9~18번",
+  "hallNote": "기존 최대관인 2관을 2016-12-02 IMAX로 전환(현 IMAX LASER). 스크린은 작지만 사운드 평이 좋음. A~B열은 바닥과 바로 붙어 있어 진동이 그대로 전달된다는 후기. 좌석수는 나무위키 266석 vs 블로그 '290석대'로 상충 — 266석 채택.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%9D%98%EC%A0%95%EB%B6%80",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+   "https://extmovie.com/movietalk/25483268",
+   "https://extmovie.com/movietalk/73425173",
+   "https://extmovie.com/movietalk/81752691",
+   "https://m.dcinside.com/board/oticket/2027928",
+   "https://www.clien.net/service/board/park/9990377",
+   "https://www.keyzard.cc/kingmin00/tt/1468"
+  ]
+ },
+ "cgv-sopoong-IMAX": {
+  "seats": 346,
+  "sweetRows": "G~H",
+  "sweetNote": "보통 G~H열을 추천하고 화면을 꽉 차게 보려면 F열, 앞쪽 D열이 명당이라는 블로그 후기도 있음(익스트림무비 정리: 시선일치 I열, 입문 H~K열 7~18번, 익스트림 D~G열 7~18번)",
+  "hallNote": "2014-11 1관을 IMAX로 전환한 부천 유일 IMAX. 2022-07-24~27 좌석 교체 진행. 스크린이 구 용산 IMAX(현 4관)급 중소형이라 앞열 선호 후기가 많고, 사이드 좌석은 자막 보기 불편하다는 의견 있음.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%86%8C%ED%92%8D",
+   "https://muko.kr/movietalk/13540209",
+   "https://world.pe.kr/entry/%EC%86%8C%ED%92%8D%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4-%EB%AA%85%EB%8B%B9",
+   "https://extmovie.com/movietalk/73425173"
+  ]
+ },
+ "cgv-incheon-IMAX": {
+  "rows": 15,
+  "rowLetters": "A~O",
+  "maxSeatsPerRow": 25,
+  "seats": 209,
+  "sweetRows": "F~H",
+  "sweetNote": "F~H열 중앙이 명당(시선일치 H열, F·G열은 화면이 꽉 차는 느낌) — 단 2024년 말 리뉴얼로 통로·단차가 바뀌어 리뉴얼 전 후기 기준",
+  "hallNote": "8관(6층). 2024-12-24 IMAX LASER 리뉴얼: 맨뒷열 R→O로 3개 열 제거(15열), 한 열 최대 21→25석 확장, 가로 통로가 F/G열 사이→D/E열 사이로 이동, 양팔걸이→한팔걸이 좌석 교체(좌석 폭 축소 불만 후기). 리뉴얼 전엔 단차가 낮아 앞사람 머리 가림 이슈가 있었고 리뉴얼 때 단차 조정. 209석은 나무위키 표기로 리뉴얼 전후 기준이 불명확함.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%9D%B8%EC%B2%9C",
+   "https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=1258596",
+   "https://m.dcinside.com/board/commercial_movie/264204",
+   "https://www.clien.net/service/board/kin/6660681",
+   "https://www.clien.net/service/board/park/12400850",
+   "https://muko.kr/movietalk/13694997",
+   "https://extmovie.com/movietalk/45996751"
+  ]
+ },
+ "cgv-pangyo-IMAX": {
+  "seats": 297,
+  "sweetRows": "F~I",
+  "sweetNote": "시선일치는 F/G열, G열이 가장 인기 있고 H·I열도 바로 매진되던 자리, 놓치면 J·K열 중앙도 무난하다는 평(폐점 전 기준)",
+  "hallNote": "현대백화점 판교점 8층, 2015-08 개관. 임대차 계약 종료로 2026-08-19 영업 종료(폐점). E열부터 정상 관람이 가능하고 그 앞열은 스크린을 올려다봐야 한다는 후기. 커뮤니티에 L열 17·18·23번 언급이 있어 최소 L열까지, 한 열 23석 이상 존재했던 것으로 확인.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%ED%8C%90%EA%B5%90",
+   "https://m.dcinside.com/board/alitabattleangel/30698",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=2049043",
+   "https://world.pe.kr/entry/%ED%8C%90%EA%B5%90%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4",
+   "https://extmovie.com/movietalk/16342144",
+   "https://extmovie.com/movietalk/73425173",
+   "https://www.topstarnews.net/news/articleView.html?idxno=16153998",
+   "https://zdnet.co.kr/view/?no=20260803170357"
+  ]
+ },
+ "mb-namyangju-DolbyCinema": {
+  "seats": 290,
+  "sweetRows": "H~I",
+  "sweetNote": "시선 정면 일치는 H~I열, 화면 꽉 찬 체감은 F~G열 선호가 갈리며 단골 관객 후기 기준 H~J열 사이드(7,8,17,18)와 K~M열 중앙(11~14)까지 허용선으로 통함",
+  "hallNote": "국내 돌비시네마 중 최대 크기 스크린(1.85:1 플랫, 290석). 단차가 좋아 앞사람 시야 방해가 적다는 평. M열 존재는 커뮤니티 글로 확인되나 총 열 수는 미확인. 상영 직전 중앙 취소표가 잘 나오는 편이라는 후기",
+  "sources": [
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EB%82%A8%EC%96%91%EC%A3%BC%ED%98%84%EB%8C%80%EC%95%84%EC%9A%B8%EB%A0%9B%20%EC%8A%A4%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%9B%90",
+   "https://theqoo.net/slamdunk/2712414587",
+   "https://m.dcinside.com/board/filo/20887",
+   "https://gall.dcinside.com/mgallery/board/view/?id=oticket&no=2061891",
+   "https://www.clien.net/service/board/kin/18672314",
+   "https://muko.kr/movietalk/19033147",
+   "https://extmovie.com/movietalk/86011206"
+  ]
+ },
+ "mb-anseong-DolbyCinema": {
+  "seats": 254,
+  "sweetRows": "F~H",
+  "sweetNote": "좌석 배치가 비대칭이라 중앙 번호가 11번이며 F11 중심 관람 추천. 관이 작아 F열 등 앞쪽에서도 사운드·서라운드가 확실히 살아있다는 평",
+  "hallNote": "국내 2호 돌비시네마(5관, 애칭 안돌비). 13m 플랫(1.85:1) 소형 스크린에 스피커가 천장까지 전부 매립형. 저음 표현력은 국내 돌비관 중 톱급 평가. 관이 작아 통로 불빛이 스크린에 비친다는 후기",
+  "sources": [
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%95%88%EC%84%B1%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C",
+   "https://m.dcinside.com/board/filo/20063",
+   "https://extmovie.com/movietalk/74656214",
+   "https://hello.ggudol.com/16"
+  ]
+ },
+ "mb-songdo-DolbyCinema": {
+  "seats": 285,
+  "sweetRows": "G~I",
+  "sweetNote": "G·H·I열 13번 중심의 중앙 블록이 명당으로 통하며, F열은 화면 보기 최적이나 저음·애트모스는 G열부터 체감이 확 올라간다는 평 (시선 일치는 H~I열)",
+  "hallNote": "국내 7번째 돌비시네마로 2024년 1월 기존 6관을 리뉴얼해 개관(수도권 서부 최초). 총 285석 확인",
+  "sources": [
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%86%A1%EB%8F%84(%ED%8A%B8%EB%A6%AC%ED%94%8C%EC%8A%A4%ED%8A%B8%EB%A6%AC%ED%8A%B8)",
+   "https://muko.kr/movietalk/17908465",
+   "https://muko.kr/movietalk/7385901",
+   "https://www.newswire.co.kr/newsRead.php?no=982811",
+   "https://sports.khan.co.kr/article/202401182138003"
+  ]
+ },
+ "mb-coex-DolbyCinema": {
+  "rowLetters": "A~R",
+  "seats": 378,
+  "sweetRows": "G~I",
+  "sweetNote": "H열이 '명당 중 명당'(G12 등 G~I 중앙이 시선일치·애트모스 최적), J열부터 저음이 약해지고 K열 이후는 화면이 멀게 느껴진다는 평 — 화면 크게 보려면 D열, 사운드 위주면 H~J열",
+  "hallNote": "MX관(450석)을 리모델링해 2020년 7월 개관한 국내 1호 돌비시네마(378석). 세로로 긴 구조에 열 단차가 크지 않은 편. A~D열은 등받이가 뒤로 15도 틸팅된 앞구간. 맨 뒷열이 R열임은 확인되나 중간 문자 생략 여부 미확인이라 총 열 수는 null",
+  "sources": [
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%BD%94%EC%97%91%EC%8A%A4",
+   "https://extmovie.com/movietalk/90867822",
+   "https://muko.kr/movietalk/19331062",
+   "https://www.fmkorea.com/4923851607",
+   "https://m.dcinside.com/board/oticket/1425841",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=2726640",
+   "https://www.cnet.co.kr/view/?no=20200722201515"
+  ]
+ },
+ "cgv-chuncheon-IMAX": {
+  "seats": 321,
+  "sweetRows": "D~E",
+  "sweetNote": "스크린이 작아 추천석이 다른 IMAX관과 달리 앞쪽에 몰려 있음 — D~E열 추천, IMAX가 처음이면 F~G열부터 시도 권장",
+  "hallNote": "일반 상영관(9관)을 IMAX로 전환한 강원도 유일 IMAX관(321석). 스크린은 작은 편이지만 상영관 자체가 작아 음향 체감이 크다는 평",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%B6%98%EC%B2%9C",
+   "https://www.clien.net/service/board/use/6765496",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
+  ]
+ },
+ "cgv-daejeon-IMAX": {
+  "seats": 364,
+  "hallNote": "일반관을 2010년 12월 IMAX관으로 개조한 2K 디지털 IMAX(스크린 16x8.5m). 전국 IMAX 대비 스크린이 작은 편이며, 좌석 단차가 낮아 앞사람 머리가 화면을 가릴 수 있다는 후기가 있음. 화질·사운드는 '생각보다 괜찮다'는 재평가 후기도 존재.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EB%8C%80%EC%A0%84",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=2856579",
+   "https://m.dcinside.com/board/oticket/595533"
+  ]
+ },
+ "cgv-daejeon-terminal-IMAX": {
+  "seats": 225,
+  "sweetNote": "스크린이 작은 편이라 체감 크기를 키우려고 일부러 C~D열 정도 앞열에서 보는 매니아도 있다는 언급(나무위키 계열 문서)",
+  "hallNote": "대전복합터미널 동관 3층. 2023년 12월 29일 기존 상영관을 IMAX LASER로 리뉴얼 개관(2관, IMAX XT Laser 영사기 + 12채널 사운드). 스크린 13.5x7.5m급 소형 IMAX.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EB%8C%80%EC%A0%84%ED%84%B0%EB%AF%B8%EB%84%90",
+   "https://cjnews.cj.net/cgv-imax%EA%B4%80-%ED%99%95%EB%8C%80cgv%EC%98%81%EB%93%B1%ED%8F%AC-%EB%8C%80%EC%A0%84%ED%84%B0%EB%AF%B8%EB%84%90-%EC%B2%9C%EC%95%88%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8-%ED%8F%89%ED%83%9D/",
+   "https://www.news1.kr/industry/distribution/5255306"
+  ]
+ },
+ "mb-daejeon-shinsegae-DolbyCinema": {
+  "seats": 313,
+  "sweetRows": "G~H",
+  "sweetNote": "커뮤니티 총평 G=H > I >= F. G열은 살짝 올려보고 H열은 살짝 내려보는 시선일치 구간이며, G열부터 저음·애트모스 체감이 확 좋아진다는 평. F열까지는 고개를 들고 봐야 함",
+  "hallNote": "7관 돌비시네마(313석). 국내 돌비시네마 중 하남스타필드에 이어 두 번째로 큰 대형 스크린(약 21m)이라 다른 돌비관보다 앞열 부담이 큰 편. F열 이전은 올려봐야 한다는 후기 다수.",
+  "sources": [
+   "https://extmovie.com/movietalk/81953595",
+   "https://dprime.kr/g2/bbs/board.php?bo_table=movie&wr_id=2746942",
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EB%8C%80%EC%A0%84%EC%8B%A0%EC%84%B8%EA%B3%84%20%EC%95%84%ED%8A%B8%EC%95%A4%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4",
+   "https://muko.kr/movietalk/1755144"
+  ]
+ },
+ "cgv-cheonan-pentaport-IMAX": {
+  "seats": 226,
+  "sweetNote": "확립된 명당 통설은 확인 안 됨. 에펨코리아 듄2 관람 후기에서 E열 추천 언급 정도",
+  "hallNote": "구 컨퍼런스관(무대+좌석별 폴딩 테이블 구조)을 2023년 12월 29일 IMAX LASER로 리뉴얼 개관. 스크린 13.5x7.5m로 '국내 최소급 IMAX, 일반관과 스크린 크기 차이가 크지 않다'는 후기가 있으나 화질·사운드 평은 양호.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%B2%9C%EC%95%88%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8",
+   "https://www.fmkorea.com/6797368135",
+   "https://cjnews.cj.net/cgv-imax%EA%B4%80-%ED%99%95%EB%8C%80cgv%EC%98%81%EB%93%B1%ED%8F%AC-%EB%8C%80%EC%A0%84%ED%84%B0%EB%AF%B8%EB%84%90-%EC%B2%9C%EC%95%88%ED%8E%9C%ED%83%80%ED%8F%AC%ED%8A%B8-%ED%8F%89%ED%83%9D/"
+  ]
+ },
+ "cgv-cheonan-terminal-IMAX": {
+  "seats": 210,
+  "hallNote": "2024년 12월 7관을 IMAX(레이저)로 리뉴얼 개관한 천안 두 번째 IMAX. 신세계백화점 천안아산점(천안종합터미널) 내. '최신 시설이고 대전의 어떤 IMAX보다 크다'는 커뮤니티 평. 좌석수는 나무위키 구판 197석, 현행판 210석으로 표기가 혼재(210석 채택).",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%B2%9C%EC%95%88%ED%84%B0%EB%AF%B8%EB%84%90",
+   "https://muko.kr/movietalk/13102895",
+   "https://muko.kr/free/17022525",
+   "https://creativesilver.tistory.com/413705"
+  ]
+ },
+ "cgv-gwanggyo-IMAX": {
+  "rows": 11,
+  "rowLetters": "A~K",
+  "maxSeatsPerRow": 27,
+  "seats": 282,
+  "sweetRows": "F~I",
+  "sweetNote": "시야 일치 구간은 I~J열이며, 블로거·커뮤니티 명당은 F~I열 9~19번 중앙 블록(각 열 정중앙은 14번 좌석)",
+  "hallNote": "2020년 설계 단계부터 지은 빌트인 IMAX(6관)로 단차는 좋은 편. 앞(스크린 쪽)에서 입장해 올라가는 구조. B~K열은 1~27번 풀열이고 A열만 7~21번의 짧은 열(장애인석 포함). 관이 앞뒤로 길쭉해 중앙에 앉아도 스크린이 멀어 다소 작게 느껴지고, 레이저 셰이커 자국(정사각형 12개)이 밝은 장면에서 보인다는 지적이 있음",
+  "sources": [
+   "https://creativesilver.tistory.com/413738",
+   "https://namu.wiki/w/CGV%20%EA%B4%91%EA%B5%90",
+   "https://m.dcinside.com/board/filo/9678",
+   "https://www.kobis.or.kr/kobis/business/mast/thea/findTheaterInfoList.do (극장코드 002259, IMAX관 282석)"
+  ]
+ },
+ "cgv-wirye-IMAX": {
+  "rows": 12,
+  "rowLetters": "A~L",
+  "maxSeatsPerRow": 20,
+  "seats": 207,
+  "sweetRows": "D~H",
+  "sweetNote": "블로거 명당은 D~H열 7~14번(정중앙은 10·11번). 커뮤니티에선 비스타 H~I열, 스코프 F~G열 추천. I열부터는 리어스피커가 뒤 좌석 위에 있어 후방 소리 왜곡 가능",
+  "hallNote": "2026-04-01 253석 일반관(5관)을 207석 IMAX LASER XT관으로 리뉴얼. 좌우 최대 20번 좌석. 뒤에서 입장해 앞으로 내려가는 구조로 시선일치가 맨 뒤 J~K열이라 대부분 좌석이 살짝 올려다봄. 스크린과 객석 거리가 멀어 안 그래도 작은 스크린이 더 작게 체감됨. K열은 1~4번+휠체어석(18·19), L열은 1~4번만 있는 측면 부분 열",
+  "sources": [
+   "https://creativesilver.tistory.com/413769",
+   "https://namu.wiki/w/CGV%20%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C%EC%8B%9C%ED%8B%B0%EC%9C%84%EB%A1%80",
+   "https://muko.kr/free/19307547",
+   "https://www.kobis.or.kr/kobis/business/mast/thea/findTheaterInfoList.do (극장코드 002243, IMAX관 207석)"
+  ]
+ },
+ "cgv-pyeongtaek-IMAX": {
+  "rows": 13,
+  "rowLetters": "A~M",
+  "maxSeatsPerRow": 21,
+  "seats": 228,
+  "sweetRows": "E~I",
+  "sweetNote": "시선일치는 I열, 블로거 명당은 E~I열 5~16번 중앙 블록(정중앙은 11번) — 스크린이 작아 조금 앞에서 보는 것을 추천",
+  "hallNote": "2023-12-29 일반관(6관)을 리뉴얼한 소형 IMAX(XT 레이저, 12채널). 스크린이 살짝 하단 배치라 시선일치가 I열로 비교적 앞쪽. I~L열이 1~21번 풀열이고 A열은 5번부터 시작하는 짧은 열, 맨 뒤 M열은 측면 일부 좌석만 있는 부분 열. G·H열 양쪽 끝에 래프트 라이트 스피커가 있어 그 좌석은 피하는 게 좋고, 소형관 대비 음향 출력이 인천·영등포급으로 강한 것이 특징",
+  "sources": [
+   "https://creativesilver.tistory.com/413703",
+   "https://namu.wiki/w/CGV%20%ED%8F%89%ED%83%9D",
+   "https://www.kobis.or.kr/kobis/business/mast/thea/findTheaterInfoList.do (극장코드 002176, 06관 IMAX 228석)"
+  ]
+ },
+ "mb-suwon-ak-DolbyCinema": {
+  "rows": 13,
+  "rowLetters": "A~M",
+  "maxSeatsPerRow": 23,
+  "seats": 275,
+  "sweetRows": "H~J",
+  "sweetNote": "H열부터 시선일치. 커뮤니티(디시 오리지널티켓 갤)에선 G~J열이 명당 취급이며 특히 H·I열 중앙이 최다 추천(정중앙은 12번 좌석). 자막·화면을 편하게 보려면 H열 이후 권장",
+  "hallNote": "구 CGV수원 IMAX관을 리뉴얼해 2023-08-11 개관. 스크린이 꽤 상단 배치라 G~H열까지 올려다보는 구조이고 A~C열은 용아맥 A열급 왜곡으로 정상 관람이 어렵다는 평. 단차가 A~C/D~F/G이후 3구간으로 나뉨. D~G열 양쪽 끝 좌석은 파란 조명 틈으로 인한 시야간섭으로 폐쇄되어 실제 판매 좌석은 약 267석. H~K열이 1~23번 최장 열이며 K열과 L열 사이에 가로 통로가 있음",
+  "sources": [
+   "https://creativesilver.tistory.com/1211",
+   "https://m.dcinside.com/board/oticket/582473",
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%88%98%EC%9B%90AK%ED%94%8C%EB%9D%BC%EC%9E%90(%EC%88%98%EC%9B%90%EC%97%AD)",
+   "https://www.kobis.or.kr/kobis/business/mast/thea/findTheaterInfoList.do (극장코드 002303, DOLBY CINEMA 275석)"
+  ]
+ },
+ "mb-hanam-DolbyCinema": {
+  "rows": 12,
+  "rowLetters": "A~L",
+  "maxSeatsPerRow": 29,
+  "seats": 336,
+  "sweetRows": "G~J",
+  "sweetNote": "명당은 G~J열 11~19번(정중앙은 15번). 시선일치는 H열부터이며 편한 관람은 G열 이후 권장, 맨 뒤 두 줄(K·L)은 음향 공간감 왜곡 가능성 지적",
+  "hallNote": "국내 돌비시네마 최대 스크린. 발코니석이 있던 구 MX관(돌비 애트모스관)을 리뉴얼해 2024-07-12 개관하며 발코니석 제거. C~L열이 1~29번 풀열. 맨 앞 A~C열은 단차가 적고 D열부터 단차가 제대로 벌어짐. 스크린이 상단 배치된 듯한 시야각이라 F·G열까지는 올려다보는 구조이고, 스크린-객석 거리가 멀어 크기 대비 체감 화면은 다소 작음. 상영관 입구에 긴 돌비 터널이 있음",
+  "sources": [
+   "https://creativesilver.tistory.com/413242",
+   "https://m.dcinside.com/board/oticket/1084521",
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%ED%95%98%EB%82%A8%EC%8A%A4%ED%83%80%ED%95%84%EB%93%9C",
+   "https://www.kobis.or.kr/kobis/business/mast/thea/findTheaterInfoList.do (극장코드 002223, Dolby Cinema관 336석)"
+  ]
+ },
+ "cgv-changwon-thecity-IMAX": {
+  "seats": 304,
+  "hallNote": "2K 디지털 IMAX관 중 국내 최소 규모의 리뉴얼(기존 상영관 개조) IMAX. 공간이 작은 만큼 음향 체감이 좋다는 평. 열 수/명당 열은 확인 불가",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%B0%BD%EC%9B%90%EB%8D%94%EC%8B%9C%ED%8B%B0",
+   "https://cgv.co.kr/cnm/bzplcCgv/0079001",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
+  ]
+ },
+ "cgv-jeonju-hyoja-IMAX": {
+  "seats": 373,
+  "sweetRows": "F~J",
+  "sweetNote": "커뮤니티/블로그 기준 매니아는 F~G열, 중급자는 H~I열, 초심자는 J열 중앙 추천 — F열보다 앞은 시야에 화면이 다 안 들어옴",
+  "hallNote": "2014년 8월 개관 당시 국내 최대 크기 IMAX 스크린(24.4x14m). 좌석 간격이 넓다는 후기가 많고, 앞뒤 단차는 확연히 구분될 정도는 아니라는 후기 있음",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%A0%84%EC%A3%BC%ED%9A%A8%EC%9E%90",
+   "https://www.newspim.com/news/view/20140828000171",
+   "https://www.mirae-biz.com/news/articleView.html?idxno=14544",
+   "https://world.pe.kr/entry/%EC%A0%84%EC%A3%BC%ED%9A%A8%EC%9E%90%EC%95%84%EC%9D%B4%EB%A7%A5%EC%8A%A4",
+   "https://www.tripadvisor.co.kr/ShowUserReviews-g1143545-d10318277-r712691315-CGV_Jeonju_Hyoja-Jeonju_Jeollabuk_do.html"
+  ]
+ },
+ "cgv-suncheon-sindae-IMAX": {
+  "hallNote": "2024년 11월 개관한 전남 두 번째 IMAX(신규 IMAX 영사기 도입 3곳 중 하나). 방문 후기에서 상영관 크기는 광주터미널 IMAX와 비슷하나 좌석(배치)이 특이하다는 언급. 좌석 수/열 정보는 확인 불가",
+  "sources": [
+   "https://muko.kr/free/13323024",
+   "https://namu.wiki/w/CGV%20%EC%88%9C%EC%B2%9C%EC%8B%A0%EB%8C%80",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD"
+  ]
+ },
+ "cgv-daegu-IMAX": {
+  "seats": 322,
+  "hallNote": "시네마스코프 비율 스크린(17.5x8.9m)의 소형 IMAX관. 단차가 매우 낮아 앞사람 키가 크면 화면 하단부가 가려질 수 있다는 평. 2022년 12월 말 이마트 칠성점 CGV에 개관한 대구 유일 IMAX관.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EB%8C%80%EA%B5%AC",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+   "https://www.imaeil.com/page/view/2022122717512071249"
+  ]
+ },
+ "mb-daegu-shinsegae-DolbyCinema": {
+  "rows": 10,
+  "rowLetters": "A~J",
+  "seats": 213,
+  "sweetRows": "F~G",
+  "sweetNote": "사운드·화면 크기 균형은 F~G열 중앙이 명당. 스크린이 작아 꽉 찬 화면을 원하면 D~E열도 추천(커뮤니티에선 G~H열 11·12번, 추천좌석 D~I열 6~17번 언급).",
+  "hallNote": "국내 돌비시네마 지점 중 스크린(15.7x8.5m)·좌석 규모가 가장 작은 관. 좌석은 A~J열로 J열이 맨 뒤이며, 돌비관 특성상 뒷열 시야도 최적화되어 있다는 평.",
+  "sources": [
+   "https://namu.wiki/w/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EB%8C%80%EA%B5%AC%EC%8B%A0%EC%84%B8%EA%B3%84(%EB%8F%99%EB%8C%80%EA%B5%AC)",
+   "https://extmovie.com/movietalk/81731497",
+   "https://extmovie.com/movietalk/82722908",
+   "https://muko.kr/free/20412285",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=2729889"
+  ]
+ },
+ "cgv-seomyeon-IMAX": {
+  "seats": 358,
+  "sweetRows": "F~H",
+  "sweetNote": "일반(IMAX) 상영 시 F~H열 중앙(정중앙 14번)이 명당, SCREENX 상영 시엔 H·J~M열이 명당으로 꼽힘.",
+  "hallNote": "IMAX관에서 SCREENX 상영도 겸해 포맷에 따라 명당이 달라짐. 좌석은 최소 M열까지 존재. 앞사람 키가 크면 화면 하단이 가려질 수 있다는 후기가 있음(규모는 구 용산 IMAX와 비슷하다는 평).",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%84%9C%EB%A9%B4",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+   "http://m.todayhumor.co.kr/view.php?table=movie&no=69226"
+  ]
+ },
+ "cgv-centum-IMAX": {
+  "rows": 12,
+  "rowLetters": "A~L",
+  "seats": 422,
+  "sweetRows": "H~K",
+  "sweetNote": "커뮤니티에선 H~K열 중앙 추천, 'I·J열은 되어야 보기 좋다'는 후기도. 첫 이용자에겐 맨뒷열 L열 추천 의견도 있음.",
+  "hallNote": "국내 2번째로 큰 스크린(30.2x15.7m). 맨 앞 A~C열은 스크린이 너무 가까워 기피됨. 스코프 비율 상영 시 화면이 상하 정중앙보다 아래쪽에 영사됨(위 레터박스가 더 큼). 빌트인관(용산·울산삼산) 대비 우퍼 진동은 약하나 사운드 전달은 좋다는 평.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0",
+   "https://m.kinolights.com/community/post/xc3Hv5MBx3zMpC6x4eke",
+   "https://muko.kr/movietalk/13473455",
+   "https://dvdprime.com/g2/bbs/board.php?bo_table=movie&wr_id=3486897",
+   "https://cjnews.cj.net/cgv-%EB%B6%80%EC%82%B0-%EC%84%BC%ED%85%80%EC%8B%9C%ED%8B%B0%EC%97%90-imax%EA%B4%80-%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%84%A0%EB%B4%AC/"
+  ]
+ },
+ "cgv-ulsan-samsan-IMAX": {
+  "rows": 13,
+  "rowLetters": "A~M",
+  "maxSeatsPerRow": 37,
+  "seats": 441,
+  "sweetRows": "H~I",
+  "sweetNote": "리뉴얼 후 H~I열이 좋다는 후기(G열은 약간 앞쪽 체감). 열이 한 줄 제거되어 기존에 앉던 열 기준으로 한 열 조정하라는 조언도 있음.",
+  "hallNote": "처음부터 IMAX용으로 지은 빌트인관으로 단차가 매우 커 앞사람 머리 걸림이 거의 없음. 2024년 10월 18일 IMAX LASER 리뉴얼로 맨 앞열·일부 구석 좌석이 제거되어 A~N열 1~37번 502석에서 A~M열 1~37번 441석으로 감소. 용산에 이어 국내 2번째로 좌석이 많은 IMAX관.",
+  "sources": [
+   "https://namu.wiki/w/CGV%20%EC%9A%B8%EC%82%B0%EC%82%BC%EC%82%B0",
+   "https://namu.wiki/w/IMAX/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD",
+   "https://muko.kr/movietalk/12495045",
+   "https://muko.kr/movietalk/13402505",
+   "https://extmovie.com/movietalk/92579580",
+   "https://www.clien.net/service/board/use/4424572"
+  ]
+ }
+}
